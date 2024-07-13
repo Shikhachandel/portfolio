@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&family=Roboto:wght@500;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+.dark {
+    --pallet-1: #393939;
+    --pallet-2: #5E5E5E;
+    --pallet-3: #5662ce;
+    --pallet-3-hover: #4852ab;
+    --pallet-3-light-surface: #6877ff;
+    --pallet-4: #dfe1fc;
+}
+
+.light {
+    --pallet-1: #F4F4F2;
+    --pallet-2: #E8E8E8;
+    --pallet-3: #5662ce;
+    --pallet-3-hover: #4852ab;
+    --pallet-3-light-surface: #6877ff;
+    --pallet-4: #333b45;
+}
+
+highlight {
+    color: var(--pallet-3-light-surface);
+}
