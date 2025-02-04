@@ -1,5 +1,5 @@
-import movieFinder from '..\icons\movie_finder.png';
-import paddleGame from '';
+import movieFinder from '../icons/movie_finder.png';
+import paddleGame from '../icons/paddle_game.png';
 
 
 const ProjectData = [

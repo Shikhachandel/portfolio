@@ -1,7 +1,7 @@
 import umit from "../icons/umit.webp";
 import uncc from "../icons/uncc.jpeg";
 
-const Education = [
+const Educations = [
     {
         "college_url_name": "uncc",
         "college_title": "University Of North Carolina Charlotte",
@@ -11,9 +11,9 @@ const Education = [
         "end_date": "30/05/2025",
         "image": uncc,
         "tech_stack": ["Machine Learning", "Knowledge Discovery In Databases", "Algorithms And Data Structures", "Software Design And Implementation"],
-        "description": "3.66/4",
+        "description": "3.77/4",
         "links": {
-            "web_url": "https://www.cogoport.com",
+            "web_url": "https://www.charlotte.edu/",
         },
         "major_contributions": [
         ],
@@ -31,7 +31,7 @@ const Education = [
         "tech_stack": ["Database Management System", "Object Oriented Programming", "Data Structure And File Processing", "Computer Architection And Organization", "Operating Systems","Data Science And Business Analytics"],
         "description": "9.6/10",
         "links": {
-            "web_url": "https://www.cogoport.com",
+            "web_url": "https://www.umit.ac.in/about-umit",
         },
         "major_contributions": [
             {

@@ -42,8 +42,45 @@ export const WorkContentImage = styled.img`
     }
 `
 
-
 export const WorkContentDetail = styled.div`
+    padding: 2rem 10rem;
+
+    @media ${device.tablet}{
+        padding: 2rem 4rem;
+    }
+
+    @media ${device.tabletS}{
+        padding: 2rem 2rem;
+    }
+
+    @media ${device.mobileM}{
+        padding: 2rem 1rem;
+    }
+`
+
+export const CollegeContentDiv = styled.div`
+    padding: 2rem 3rem;
+
+    @media ${device.tabletS}{
+        padding: 2rem 0rem;
+    }
+`
+export const CollegeContentImage = styled.img`
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+
+    @media ${device.tabletS}{
+        height: 275px;
+    }
+
+    @media ${device.mobileL}{
+        height: 200px;
+    }
+`
+
+
+export const CollegeContentDetail = styled.div`
     padding: 2rem 10rem;
 
     @media ${device.tablet}{

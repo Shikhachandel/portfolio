@@ -10,6 +10,9 @@ import Project from "./pages/project";
 import Projects from "./pages/projects";
 import Experience from "./pages/experience";
 import Experiences from "./pages/experiences";
+import Education from "./pages/education";
+import Educations from "./pages/educations";
+
 
 
 function App() {
@@ -24,6 +27,8 @@ function App() {
         <Route path="/experiences/:company_name" element={<Experience />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/projects/:project_name" element={<Project />} />
+        <Route path="/educations" element={<Educations />} />
+        <Route path="/educations/:company_name" element={<Education/>} />
       </Routes>
     </Background>
   );
