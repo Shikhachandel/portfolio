@@ -16,17 +16,19 @@ function HomepageContent() {
   return (
     <MainContent>
       <Heading>
-        <HeadingTitle>Hi, I'm Shikha !</HeadingTitle>
+        <HeadingTitle>Hello, <br />I'm Shikha !</HeadingTitle>
         <AmongUsImg src={doodleControl} />
       </Heading>
       <HorizontalLineContainer>
         <HorizontalLine />
       </HorizontalLineContainer>
       <Description>
-        Welcome to my 'Corner of Professional Experiences'. I am <HighlightContent>Software Developer</HighlightContent> who
-        thrives as a team player. <br />
-        I work on interesting ideas to make them into reality without being bound to one certain technologies. Following the quote
-        "A jack of all trades is a master of none, but oftentimes better than a master of one”
+        Welcome to my 'Hub of Innovation and Growth'. I'm a <HighlightContent>Software Developer </HighlightContent>  
+        with a passion for turning creative ideas into real-world solutions. 
+        I thrive in collaborative environments and enjoy working across diverse technologies, embracing flexibility 
+        and continuous learning.<br />
+        As the saying goes, “A jack of all trades is a master of none, but oftentimes better than a master of one,” 
+        and I believe in broadening my skill set to tackle challenges from multiple perspectives.
       </Description>
     </MainContent>
   );

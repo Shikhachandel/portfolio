@@ -16,7 +16,6 @@ function WhatsAppChatLink({ phoneNumber, message }) {
       rel="noopener noreferrer"
     >
       +1-(650)705 8467
-      +91-(797)736 5366
     </Link>
   );
 }

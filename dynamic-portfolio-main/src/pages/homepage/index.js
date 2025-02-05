@@ -1,5 +1,6 @@
 import Footer from "../../commons/footer";
 import Header from "../../commons/header";
+import EducationContent from "./education";
 import ExperienceContent from "./experience";
 import Projects from "./projects";
 import Expertise from "./expertise";
@@ -14,6 +15,7 @@ function Homepage() {
       <Header hideLogo={hideLogo} />
       <HomepageContent />
       <Expertise />
+      <EducationContent />
       <ExperienceContent />
       <Projects />
       <Footer />

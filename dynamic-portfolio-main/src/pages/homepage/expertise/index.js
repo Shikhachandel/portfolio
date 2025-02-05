@@ -34,11 +34,11 @@ function Expertise() {
             <BoxDescTag>&#60;bash&#62;</BoxDescTag>
             <BoxDescQuote>
               <br />
-              Well versed with SDLC. <br />
+              Well versed with SDLC and agile development. <br />
               Understanding of OOPs concepts and
               Computers Networking <br />
-              Understanding of Machine Learning 
-              models and data analysis<br />
+              Understanding of Artificial Intelligence
+              and data analysis<br />
               <br />
             </BoxDescQuote>
             <BoxDescTag>&#60;bash&#62;</BoxDescTag>
@@ -53,8 +53,9 @@ function Expertise() {
             <BoxDescTag>Shikha-Lenovo ~ %</BoxDescTag>
             <BoxDescQuote>
               <br />
-              Experience with ROR. Understanding of LLD and HLD.
+              Experience with ROR and Golang. Understanding of LLD and HLD.
               Smooth with RestAPIs and third party integrations. <br />
+              Worked with job scheduling and microservice. <br />
               <br />
             </BoxDescQuote>
             <BoxDescTag>Shikha-Lenovo ~ %</BoxDescTag>
@@ -69,7 +70,9 @@ function Expertise() {
             <BoxDescTag>&#60;h2&#62;</BoxDescTag>
             <BoxDescQuote>
               <br />
+              Experienced with Dash, Flask, HTML and CSS <br />
               Skilled in developing and integrating Backend technologies using React.js  <br />
+              
               <br />
             </BoxDescQuote>
             <BoxDescTag>&#60;h2&#62;</BoxDescTag>

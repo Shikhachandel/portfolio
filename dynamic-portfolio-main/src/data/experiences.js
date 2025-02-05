@@ -1,7 +1,57 @@
+import unccTA from "../icons/uncc.png";
 import cogoport from "../icons/cogoport_640.png";
 import verzeo from "../icons/verzeo.jpg";
 
 const Experiences = [
+    {
+        "work_url_name": "unccTA",
+        "work_title": "University Of North Carolina, Charlotte",
+        "work_position": "TA - Graduate Assistantship ",
+        "work_location": "Charlotte, USA",
+        "start_date": "22/08/2024",
+        "end_date": "08/05/2025",
+        "image": unccTA,
+        "tech_stack": ["JAVA", "Artificial Intelligence"],
+        "description": "As a Teaching Assistant, I support Master’s and PhD students in their Artificial Intelligence coursework, focusing on foundational algorithms such as Breadth-First Search (BFS) and Depth-First Search (DFS). My responsibilities include clarifying complex concepts during office hours, guiding students through assignments and projects, and providing detailed feedback on their work. This role allows me to engage deeply with AI concepts while fostering a collaborative learning environment for advanced students.",
+        "links": {
+            "web_url": "https://www.charlotte.edu/",
+        },
+        "major_contributions": [
+            {
+                "title": "Grading",
+                "desc": "",
+                "start_date": "",
+                "end_date": "",
+                "work_span": "",
+                "web-url": "",
+            },
+            {
+                "title": "Doubt Solving",
+                "desc": "",
+                "start_date": "",
+                "end_date": "",
+                "work_span": "",
+                "web-url": ""
+            },
+            {
+                "title": "Procturing",
+                "desc": "",
+                "start_date": "",
+                "end_date": "",
+                "work_span": "",
+                "web-url": ""
+            }
+        ],
+        "details": [
+            "I began my role as a <highlight>Teaching Assistant</highlight> under <highlight>Prof. Dr.Dewan Ahmed</highlight> in Fall 2024 after completing the same course as a student in Spring 2023.", 
+            "My primary responsibilities include conducting office hours to <highlight>assist students</highlight> with course-related questions, grading, projects, assignments, and conceptual understanding beyond the classroom.", 
+            "I also address student queries via email and Zoom meetings for additional support.",
+            "Another key part of my role involves <highlight>proctoring exams</highlight>, where I work alongside colleagues to help maintain classroom decorum during tests.",
+            "Additionally, I assist the professor in preparing homework questions and <highlight>grading assignments</highlight>.",
+            "I am continuing in this role at <highlight>present</highlight>, through the Spring 2025 semester.",
+            
+        ]
+    },
     {
         "work_url_name": "cogoport",
         "work_title": "Cogoport",
@@ -42,11 +92,11 @@ const Experiences = [
             }
         ],
         "details": [
-            "I started my professional carrer in Cogoport on 27 June 2022.",
+            "I started my professional career in Cogoport on 27 June 2022.",
             "Tech stack used by company was <highlight>Ruby on Rails, React.js</highlight> and Kotlin for developing product. <highlight>Redis</highlight> for cache. <highlight>Sidekiq</highlight> for CRON jobs. Architecture was build on AWS. Jetkins for CI/CD. <highlight>R-Spec</highlight> for unit testing. And few more which I must have missed.",
             "My interest inclined with the backend part as it was more about understanding the data and the architecture of product along with the business logics which were to be included in APIs.",
-            "My first Contibuiton started with the project <highlight>Promotions</highlight>, where I was lead in manual testing alongwith debugging, making new APIs in Ruby on Rails for system and also cleaning the repository and manual data .",
-            "Next I worked on internal projects line <highlight>Dunning</highlight and <highlight>Incentives</highlight where I worked with queries to migrate, integrate and solve data issues from different databases using <highlight>PostGreSQL</highlight> and also implemented problem solving solutions to make <highlight>CRON</highlight> jobs effective.",
+            "My first contibuiton started with the project <highlight>Promotions</highlight>, where I was lead in manual testing alongwith debugging, making new APIs in Ruby on Rails for system and also writing scripts to clean data .",
+            "Next, I worked on internal projects like <highlight>Dunning</highlight> and <highlight>Incentives</highlight> where I worked with queries to migrate, integrate and solve data issues from different databases using <highlight>PostGreSQL</highlight> and also implemented problem solving solutions to make <highlight>CRON</highlight> jobs effective.",
             "I also worked in <highlight>Python</highlight> during integration of <highlight>Google Firebase</highlight> with our system.",
             "My Major Contribution was my last project <highlight>Ticket System</highlight> for which I worked towards repository setup for new language <highlight>Golang</highlight> and created this micro service.", 
             "Transformed system performance by architecting resilient Web APIs with Ruby on Rails, ensuring uninterrupted operational excellence amidst complex challenges.", 
@@ -79,7 +129,14 @@ const Experiences = [
             }
         ],
         "details": [
-            ""
+            "During my third year of college, I completed an internship where I was introduced to the fundamentals of <highlight>Machine Learning</highlight> through online training sessions.",
+            "As part of the internship, I worked on two key projects that allowed me to apply these concepts in practical scenarios.",
+            "For the first project, I collaborated with a team to develop a <highlight>Sentiment Analysis</highlight> model for news websites.", 
+            "We began by scraping data from various news sources, then used <highlight>Pandas</highlight> and <highlight>NumPy</highlight> for data preprocessing and cleaning.",
+            "To gain insights from the data, we employed <highlight>Seaborn</highlight> for visualization, identifying patterns and trends in public sentiment.",
+            "In the second project, we engineered a tweet classification application designed to categorize tweets as positive or negative, enhancing the company’s social media analysis capabilities.",
+            "We utilized the <highlight>TF-IDF (Term Frequency-Inverse Document Frequency)</hightlight> method to convert text data into numerical features, which improved the accuracy of our sentiment analysis model.",
+            "This project not only strengthened my understanding of <highlight>Natural Language Processing</highlight> but also gave me hands-on experience in building machine learning models for real-world applications.",
         ]
     }
 ]

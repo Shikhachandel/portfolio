@@ -27,7 +27,6 @@ function ContactContent() {
           <LinkDesc>Chat on whatsapp</LinkDesc>
           <LinkDiv>
             <WhatsAppChatLink phoneNumber="+16507058467" message="hello USA" />
-            <WhatsAppChatLink phoneNumber="+917977365366" message="hello India" />
           </LinkDiv>
         </div>
         <div>

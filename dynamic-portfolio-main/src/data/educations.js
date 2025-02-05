@@ -1,5 +1,5 @@
 import umit from "../icons/umit.webp";
-import uncc from "../icons/uncc.jpeg";
+import uncc from "../icons/uncc.png";
 
 const Educations = [
     {
