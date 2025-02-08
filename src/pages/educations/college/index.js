@@ -1,4 +1,4 @@
-import { Brief, ContributionItem, ContributionList, ContributionTitle, Skill, SkillsDiv, Title, TitleDiv, TitleLink, CollegeContainer, CollegeDuration, CollegePosition } from "./style";
+import { Brief, ContributionItem, ContributionList, ContributionTitle, Skill, SkillsDiv, Title, TitleDiv, TitleLink, CollegeContainer, CollegeDuration, CollegeDegree, CollegeLocation, CollegeGrade} from "./style";
 import FormatDate from "../../../commons/datetime";
 
 const College = ({ college }) => {
@@ -9,14 +9,22 @@ const College = ({ college }) => {
         <CollegeContainer>
             <TitleDiv>
                 <Title><TitleLink to={`../educations/${college.college_url_name}`}>{college.college_title}</TitleLink></Title>
-                <CollegePosition>
-                    {college.college_title}
-                </CollegePosition>
+                <CollegeLocation>
+                    {college.college_location}
+                </CollegeLocation>
+            </TitleDiv>
+            <TitleDiv>
+                <CollegeDegree>
+                    {college.college_degree}
+                </CollegeDegree>
                 <CollegeDuration>
                     {`${start_date} - ${end_date}`}
                 </CollegeDuration>
             </TitleDiv>
-            <SkillsDiv>
+            <CollegeGrade>
+                    {college.college_grade}
+            </CollegeGrade>
+            <SkillsDiv>Relevant Work:
                 {college.tech_stack.map((skill, index) => (
                     <Skill key={`li_${index}`}>{skill}</Skill>
                 ))}
@@ -28,7 +36,7 @@ const College = ({ college }) => {
             {
                 college.major_contributions?
                     (<div>
-                        <ContributionTitle>Major contribution college's</ContributionTitle>
+                        <ContributionTitle></ContributionTitle>
                         <ContributionList>
                             {
                                 college.major_contributions.map((contribution, index) => (

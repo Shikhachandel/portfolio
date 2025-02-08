@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { EducationBoxContiner, EducationDescprition, EducationImage, EducationImageBox, 
+import { EducationBoxContiner, EducationDescription, EducationImage, EducationImageBox, 
     EducationLink, EducationTextContent, EducationTitle } from "./style";
 
 const EducationBox = ({college}) => {
@@ -13,7 +13,7 @@ const EducationBox = ({college}) => {
             <EducationTitle>
                 {college.college_title}
             </EducationTitle>
-            <EducationDescprition>{college.description}</EducationDescprition>
+            <EducationDescription>{college.description}</EducationDescription>
             <EducationLink to={`/educations/${college.college_url_name}`}>
                 Learn More &#8594;
             </EducationLink>

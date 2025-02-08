@@ -79,7 +79,6 @@ export const CollegeContentImage = styled.img`
     }
 `
 
-
 export const CollegeContentDetail = styled.div`
     padding: 2rem 10rem;
 

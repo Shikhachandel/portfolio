@@ -58,7 +58,7 @@ export const EducationTitle = styled.div`
     }
 `
 
-export const EducationDescprition = styled.div`
+export const EducationDescription = styled.div`
     color: var(--pallet-4);
     padding-bottom: 1rem;
     font-family: Nunito;

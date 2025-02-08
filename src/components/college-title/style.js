@@ -7,14 +7,24 @@ export const MainDiv = styled.div`
 `
 
 export const Title = styled.h1`
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     margin-bottom: 1rem;
     text-wrap: nowrap;
+`
+
+export const Degree = styled.h1`
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
 `
 
 export const Location = styled.h3`
     font-size: 1.5rem;
     margin: 0;
+`
+
+export const Grade = styled.h1`
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
 `
 
 export const Duration = styled.h3`

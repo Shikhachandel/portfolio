@@ -18,26 +18,38 @@ export const TitleDiv = styled.div`
 export const Title = styled.h1`
     margin: 0;
     margin-bottom: 0.2rem;
+    text-wrap: nowrap
 `
 export const TitleLink = styled(Link)`
     text-decoration: none;
     cursor: pointer;
     color: var(--pallet-4);
 `
-export const CollegePosition = styled.div`
+export const CollegeDegree = styled.div`
+    margin: 0;
     text-wrap: nowrap
 `
 export const CollegeDuration = styled.div`
-    text-wrap: nowrap
+    padding-left: 6rem;
+    text-wrap: nowrap;
+`
+
+export const CollegeLocation = styled.div`
+    padding-left: 6rem;
+    text-wrap: nowrap;
+`
+
+export const CollegeGrade = styled.div`
+    text-wrap: nowrap;
 `
 
 export const SkillsDiv = styled.div`
     list-style: none;
     display: flex;
-    padding-bottom: 1rem;
+    padding: 3rem;
+
 `
 export const Skill = styled.li`
-    padding-right: 0.7rem;
     color: var(--pallet-3);
 `
 
