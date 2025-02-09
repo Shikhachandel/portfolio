@@ -24,25 +24,34 @@ const College = ({ college }) => {
             <CollegeGrade>
                     {college.college_grade}
             </CollegeGrade>
-            <SkillsDiv>Relevant Work:
+
+            <Brief>
+                {college.brief}
+            </Brief>
+
+            Relevant Course Work:
+            <SkillsDiv>
                 {college.tech_stack.map((skill, index) => (
                     <Skill key={`li_${index}`}>{skill}</Skill>
                 ))}
             </SkillsDiv>
 
-            <Brief>
-                {college.brief}
-            </Brief>
+            
             {
                 college.major_contributions?
                     (<div>
                         <ContributionTitle></ContributionTitle>
                         <ContributionList>
-                            {
-                                college.major_contributions.map((contribution, index) => (
-                                    <ContributionItem key={`contribution_${index}`}>- {contribution.title}</ContributionItem>
-                                ))
-                            }
+                        {
+                            college.major_contributions.map((contribution, index) => (
+                                <ContributionItem key={`contribution_${index}`}>
+                                <div>* <a href={contribution.web_url} target="_blank" rel="noopener noreferrer"  style={{ color: "var(--pallet-3)" }} >{contribution.title}</a></div>
+                                <div>- {contribution.desc}</div>
+                                <div>- {contribution.start_date}</div>
+                                <div>- {contribution.work_span}</div>
+                                </ContributionItem>
+                            ))
+                        }
                         </ContributionList>
                     </div>) : ''
             }

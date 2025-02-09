@@ -34,8 +34,8 @@ const EducationsMain = () => {
                     <TagLayoutTitleDiv>
                         {
                             activeTagId === 0 ?
-                                <TagLayoutTitleActive onClick={() => getTaggedCollege('', 0)}>All colleges</TagLayoutTitleActive> :
-                                <TagLayoutTitle onClick={() => getTaggedCollege('', 0)}>All colleges</TagLayoutTitle>
+                                <TagLayoutTitleActive onClick={() => getTaggedCollege('', 0)}>Relevant works</TagLayoutTitleActive> :
+                                <TagLayoutTitle onClick={() => getTaggedCollege('', 0)}>Relevant works</TagLayoutTitle>
                         }
 
                     </TagLayoutTitleDiv>

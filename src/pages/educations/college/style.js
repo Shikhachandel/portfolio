@@ -23,11 +23,12 @@ export const Title = styled.h1`
 export const TitleLink = styled(Link)`
     text-decoration: none;
     cursor: pointer;
-    color: var(--pallet-4);
+    color: var(--pallet-3);
 `
 export const CollegeDegree = styled.div`
     margin: 0;
-    text-wrap: nowrap
+    text-wrap: nowrap;
+    color: var(--pallet-4);
 `
 export const CollegeDuration = styled.div`
     padding-left: 6rem;
@@ -44,13 +45,27 @@ export const CollegeGrade = styled.div`
 `
 
 export const SkillsDiv = styled.div`
-    list-style: none;
+     list-style: none;
+    padding: 0;
     display: flex;
-    padding: 3rem;
+    flex-wrap: wrap;
+    gap: 3 rem;
 
 `
 export const Skill = styled.li`
-    color: var(--pallet-3);
+    display: inline-block;
+    background-color: var(--pallet-3);
+    color: white;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+
+    &:hover {
+        background-color: var(--pallet-4);
+        transform: scale(1.1);
+    }
 `
 
 export const Brief = styled.div`

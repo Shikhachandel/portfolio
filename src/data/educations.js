@@ -17,7 +17,15 @@ const Educations = [
         },
         "major_contributions": [
         ],
+        "brief":[
+            "I am pursuing an M.S. in Computer Science at UNC Charlotte (Fall 2023). I’ve completed courses in AI, Machine Learning, and Software Design. I developed a Movie Finder System as a capstone project. I’ve worked as a TA for AI under Dr. Dewan Ahmed and am an active TISA member."
+        ],
         "details": [
+            "I am currently pursuing a Master of Science in Computer Science at UNC Charlotte, having joined in Fall 2023 (August 2023). My coursework has provided me with a strong foundation in Artificial Intelligence, Machine Learning, Algorithms and Data Structures, Data Information and Visualization, Knowledge Discovery and Data Mining, and Software System Design and Implementation.",
+            "As part of my academic journey, I have worked on several projects. One of my most notable projects is the Movie Finder System, developed as part of my capstone. This system allows users to track their watched and bookmarked movies while providing seamless access to IMDb’s database for retrieving movie-related information. This project enhanced my skills in software development, database management, and user experience design.",
+            "In addition to my academic work, I have gained valuable professional experience. I worked as a cashier at Chartwells for four semesters, where I developed strong communication and customer service skills, which have proven invaluable in team collaborations and professional interactions. Currently, I am serving as a Teaching Assistant for Artificial Intelligence under Dr. Dewan Ahmed, a role I have held for two semesters. In this position, I assist students with AI concepts, projects, and assignments, conduct office hours, and support grading and exam proctoring.",
+            "Beyond academics and work experience, I am actively involved in student organizations. I am a member of the TISA (Taiwanese International Student Association), which has provided opportunities for networking, cultural exchange, and community engagement.",
+            "With a combination of academic excellence, hands-on projects, work experience, and active student involvement, I continue to expand my technical and interpersonal skills to excel in my career.",
         ]
     },
     {
@@ -28,20 +36,23 @@ const Educations = [
         "start_date": "01/08/2018",
         "end_date": "07/06/2022",
         "image": umit,
-        "tech_stack": ["Database Management System", "Object Oriented Programming", "Data Structure And File Processing", "Computer Architection And Organization", "Operating Systems","Data Science And Business Analytics"],
+        "tech_stack": ["Database Management System", "Object Oriented Programming In JAVA", "Data Structure And File Processing with C++", "Computer Architection And Organization", "Operating Systems","Data Science And Business Analytics"],
         "grade": "9.6/10",
         "links": {
             "web_url": "https://www.umit.ac.in/about-umit",
         },
         "major_contributions": [
             {
-                "title": "Journal Name: International Research Journal of Engineering and Technology",
-                "desc": "Paper Title: Stock Market Prediction Analysis",
+                "title": "Paper Title: Stock Market Prediction Analysis",
+                "desc": "Journal Name: International Research Journal of Engineering and Technology",
                 "start_date": "Issue: Volume 9 Issue 4, April 2022",
                 "end_date": "",
                 "work_span": "Paper Type: Manuscript",
-                "web-url": "https://www.irjet.net/archives/V9/i4/IRJET-V9I4279.pdf",
+                "web_url": "https://www.irjet.net/archives/V9/i4/IRJET-V9I4279.pdf",
             }
+        ],
+        "brief":[
+            "I earned my B.Tech in Computer Science from Usha Mittal Institute of Technology in 2022. Proficient in C++, Java, Python, and more, I explored AI, ML, and data analysis. As a class representative and event organizer, I honed leadership skills. Projects on drowsiness detection and stock prediction enhanced my expertise."
         ],
         "details": [
             "I completed my Bachelor of Technology in Computer Science from Usha Mittal Institute of Technology in 2022.",

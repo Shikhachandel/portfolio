@@ -1,42 +1,38 @@
 export const tagControl = [
     {
         id: 1,
-        name: 'Ruby on Rails',
+        name: 'Machine Learning',
     },
     {
         id: 2,
-        name: 'React.js',
+        name: 'Knowledge Discovery In Databases',
     },
     {
         id: 3,
-        name: 'Sidekiq',
+        name: 'Algorithms And Data Structures',
     },
     {
         id: 4,
-        name: 'PostgreSQL',
+        name: 'Software Design And Implementation',
     },
     {
         id: 5,
-        name: 'Go Lang',
+        name: 'Database Management System',
     },
     {
         id: 6,
-        name: 'Python',
+        name: 'Object Oriented Programming In JAVA',
     },
     {
         id: 7,
-        name: 'Pandas',
+        name: 'Data Structure And File Processing with C++',
     },
     {
         id: 8,
-        name: 'Numpy',
+        name: 'Operating Systems',
     },
     {
         id: 9,
-        name: 'Seaborn',
-    },
-    {
-        id: 10,
-        name: 'TFIDF',
+        name: 'Data Science And Business Analytics',
     }
 ]
