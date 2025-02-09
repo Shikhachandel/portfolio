@@ -126,7 +126,7 @@ const Experiences = [
         },
         "major_contributions": [
             {
-                "title": "",
+                "title": "Sentiment Analysis",
                 "desc": "",
                 "start_date": "",
                 "end_date": "",

@@ -7,8 +7,8 @@ const ProjectData = [
         "project_url_name": "movie_finder",
         "project_title": "Movie Finder",
         "image": movieFinder,
-        "start_date": "27/06/2022",
-        "end_date": "16/07/2022",
+        "start_date": "06/01/2024",
+        "end_date": "23/04/2024",
         "links": {
             "github_url": "https://github.com/Shikhachandel/MovieFinder",
             "web_url": "https://shikhachandelmoviefinder.netlify.app/"

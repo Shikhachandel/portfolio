@@ -13,15 +13,14 @@ const Work = ({ work }) => {
                     {`${start_date} - ${end_date}`}
                 </WorkDuration>
             </TitleDiv>
+            <Brief>
+                {work.brief}
+            </Brief>
             <SkillsDiv>
                 {work.tech_stack.map((skill, index) => (
                     <Skill key={`li_${index}`}>{skill}</Skill>
                 ))}
             </SkillsDiv>
-
-            <Brief>
-                {work.brief}
-            </Brief>
             {
                 work.major_contributions?
                     (<div>

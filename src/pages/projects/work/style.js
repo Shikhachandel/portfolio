@@ -22,7 +22,7 @@ export const Title = styled.h1`
 export const TitleLink = styled(Link)`
     text-decoration: none;
     cursor: pointer;
-    color: var(--pallet-4);
+    color: var(--pallet-3);
 `
 
 export const WorkDuration = styled.div`

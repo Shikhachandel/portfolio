@@ -10,12 +10,44 @@ const Educations = [
         "start_date": "21/08/2023",
         "end_date": "30/05/2025",
         "image": uncc,
-        "tech_stack": ["Machine Learning", "Knowledge Discovery In Databases", "Algorithms And Data Structures", "Software Design And Implementation"],
+        "tech_stack": ["Machine Learning", "Knowledge Discovery In Databases", "Algorithms And Data Structures", "Software Design And Implementation", "Big Data and Analytics"],
         "grade": "3.77/4",
         "links": {
             "web_url": "https://www.charlotte.edu/",
         },
         "major_contributions": [
+            {
+                "title": "Teaching Assistant for Artificial Intelligence_6150",
+                "desc": "OnCampus Job",
+                "start_date": "22/08/2024",
+                "end_date": "08/05/2025",
+                "work_span": "Fall 2024 to Spring 2025",
+                "web_url": "http://localhost:3000/experiences/unccTA",
+            },
+            {
+                "title": "AWS Academy Graduate - AWS Academy Data Engineering",
+                "desc": "OnCampus Job",
+                "start_date": "Issued: November 2024",
+                "end_date": "",
+                "work_span": "Fall 2024",
+                "web_url": "https://www.credly.com/badges/9b88d358-1596-499b-98f1-d8bd96b8d7a4/linked_in_profile",
+            },
+            {
+                "title": "Movie Finder Project",
+                "desc": "Capstone Project",
+                "start_date": "06/01/2024",
+                "end_date": "23/04/2024",
+                "work_span": "Spring 2024",
+                "web_url": "http://localhost:3000/projects/movie_finder",
+            },
+            {
+                "title": "Cashier",
+                "desc": "OnCampus Job",
+                "start_date": "01/11/2023",
+                "end_date": "08/05/2025",
+                "work_span": "Fall 2023 to Spring 2025",
+                "web_url": "https://aux.charlotte.edu/directory/chartwells-dining-services/",
+            }
         ],
         "brief":[
             "I am pursuing an M.S. in Computer Science at UNC Charlotte (Fall 2023). I’ve completed courses in AI, Machine Learning, and Software Design. I developed a Movie Finder System as a capstone project. I’ve worked as a TA for AI under Dr. Dewan Ahmed and am an active TISA member."
@@ -47,8 +79,16 @@ const Educations = [
                 "desc": "Journal Name: International Research Journal of Engineering and Technology",
                 "start_date": "Issue: Volume 9 Issue 4, April 2022",
                 "end_date": "",
-                "work_span": "Paper Type: Manuscript",
+                "work_span": "6 Months",
                 "web_url": "https://www.irjet.net/archives/V9/i4/IRJET-V9I4279.pdf",
+            },
+            {
+                "title": "Digital Literacy Session",
+                "desc": "Angel Xpress Foundation",
+                "start_date": "2020",
+                "end_date": "2020",
+                "work_span": "2 Months",
+                "web_url": "https://drive.google.com/file/d/1wXbJZ83pAqhwyNxjBOfpL2MIKLBePAoZ/view?usp=sharing",
             }
         ],
         "brief":[
