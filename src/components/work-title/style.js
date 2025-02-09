@@ -21,3 +21,8 @@ export const Duration = styled.h3`
     font-size: 1.5rem;
     margin: 0;
 `
+
+export const Position = styled.h1`
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+`

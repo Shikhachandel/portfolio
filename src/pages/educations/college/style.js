@@ -28,7 +28,7 @@ export const TitleLink = styled(Link)`
 export const CollegeDegree = styled.div`
     margin: 0;
     text-wrap: nowrap;
-    color: var(--pallet-4);
+    color: var(--pallet-3);
 `
 export const CollegeDuration = styled.div`
     padding-left: 6rem;
@@ -45,7 +45,7 @@ export const CollegeGrade = styled.div`
 `
 
 export const SkillsDiv = styled.div`
-     list-style: none;
+    list-style: none;
     padding: 0;
     display: flex;
     flex-wrap: wrap;

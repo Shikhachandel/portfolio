@@ -34,8 +34,8 @@ const ExperiencesMain = () => {
                     <TagLayoutTitleDiv>
                         {
                             activeTagId === 0 ?
-                                <TagLayoutTitleActive onClick={() => getTaggedWork('', 0)}>All works</TagLayoutTitleActive> :
-                                <TagLayoutTitle onClick={() => getTaggedWork('', 0)}>All works</TagLayoutTitle>
+                                <TagLayoutTitleActive onClick={() => getTaggedWork('', 0)}>Technologies</TagLayoutTitleActive> :
+                                <TagLayoutTitle onClick={() => getTaggedWork('', 0)}>Technologies</TagLayoutTitle>
                         }
 
                     </TagLayoutTitleDiv>

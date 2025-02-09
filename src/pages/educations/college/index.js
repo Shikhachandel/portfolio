@@ -29,7 +29,7 @@ const College = ({ college }) => {
                 {college.brief}
             </Brief>
 
-            Relevant Course Work:
+            Relevant Work:
             <SkillsDiv>
                 {college.tech_stack.map((skill, index) => (
                     <Skill key={`li_${index}`}>{skill}</Skill>

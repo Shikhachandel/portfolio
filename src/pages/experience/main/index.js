@@ -11,6 +11,7 @@ const ExperienceMain = () => {
 
     const {
         work_title,
+        work_position,
         work_location,
         start_date,
         end_date,
@@ -20,7 +21,7 @@ const ExperienceMain = () => {
 
     return (
         <PageContainer>
-            <WorkTitle title={work_title} location={work_location} start_date={start_date} end_date={end_date} />
+            <WorkTitle title={work_title} position= {work_position} location={work_location} start_date={start_date} end_date={end_date} />
             <WorkContentDiv>
                 <WorkContentImage src={image} />
                 <WorkContentDetail>

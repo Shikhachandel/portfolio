@@ -38,5 +38,13 @@ export const tagControl = [
     {
         id: 10,
         name: 'TFIDF',
-    }
+    },
+    {
+        id: 11,
+        name: 'Artificial Intelligence',
+    },
+    {
+        id: 12,
+        name: 'JAVA',
+    },
 ]

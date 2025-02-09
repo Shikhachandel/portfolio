@@ -6,7 +6,7 @@ const Experiences = [
     {
         "work_url_name": "unccTA",
         "work_title": "University Of North Carolina, Charlotte",
-        "work_position": "TA - Graduate Assistantship ",
+        "work_position": "TA - Graduate Assistantship",
         "work_location": "Charlotte, USA",
         "start_date": "22/08/2024",
         "end_date": "08/05/2025",
@@ -41,6 +41,9 @@ const Experiences = [
                 "work_span": "",
                 "web-url": ""
             }
+        ],
+        "brief":[
+            "I began as a Teaching Assistant under Prof. Dr. Dewan Ahmed in Fall 2024, after completing the course in Spring 2023. My role involves assisting students with coursework, grading, and proctoring exams. I also address queries via email and Zoom and continue this role through Spring 2025."
         ],
         "details": [
             "I began my role as a <highlight>Teaching Assistant</highlight> under <highlight>Prof. Dr.Dewan Ahmed</highlight> in Fall 2024 after completing the same course as a student in Spring 2023.", 
@@ -91,6 +94,9 @@ const Experiences = [
                 "web-url": ""
             }
         ],
+        "brief":[
+            "I started my career at Cogoport in June 2022, working with Ruby on Rails, React.js, Kotlin, and AWS. My key contributions include building APIs, database migrations, CRON jobs, and developing the Ticket System microservice in Golang. I also optimized CI/CD pipelines, enhanced system performance, and documented software methodologies."
+        ],
         "details": [
             "I started my professional career in Cogoport on 27 June 2022.",
             "Tech stack used by company was <highlight>Ruby on Rails, React.js</highlight> and Kotlin for developing product. <highlight>Redis</highlight> for cache. <highlight>Sidekiq</highlight> for CRON jobs. Architecture was build on AWS. Jetkins for CI/CD. <highlight>R-Spec</highlight> for unit testing. And few more which I must have missed.",
@@ -127,6 +133,9 @@ const Experiences = [
                 "work_span": "",
                 "web-url": "",
             }
+        ],
+        "brief": [
+            "During my third year of college, I completed an internship where I learned Machine Learning fundamentals through online training. I worked on Sentiment Analysis for news websites, using Pandas, NumPy, and Seaborn for data processing and visualization. I also developed a tweet classification system using TF-IDF to enhance sentiment analysis accuracy."
         ],
         "details": [
             "During my third year of college, I completed an internship where I was introduced to the fundamentals of <highlight>Machine Learning</highlight> through online training sessions.",
