@@ -1,7 +1,7 @@
 import {
   ExpertiseContent,
   ExpertiseContainer,
-  SdeContainer,
+  SvcContainer,
   BoxTitleDiv,
   BackendContainer,
   FrontendContainer,
@@ -11,7 +11,7 @@ import {
   BoxDescQuote,
   BoxDescTag
 } from "./style";
-import sde_icon from "../../../icons/sde.png"
+import svc_icon from "../../../icons/svc.png"
 import backend_icon from "../../../icons/backend.png"
 import frontend_icon from "../../../icons/frontend.png"
 import { useCookies } from 'react-cookie'
@@ -25,57 +25,63 @@ function Expertise() {
   return (
     <ExpertiseContent>
       <ExpertiseContainer>
-        <SdeContainer>
+        <SvcContainer>
           <BoxTitleDiv>
-            <BoxIcon $theme={theme_control[cookies.view]} src={sde_icon} alt="" />
+            <BoxIcon $theme={theme_control[cookies.view]} src={svc_icon} alt="" />
             <BoxHeading>Software Developer</BoxHeading>
           </BoxTitleDiv>
           <BoxDescDiv>
-            <BoxDescTag>&#60;bash&#62;</BoxDescTag>
+            <BoxDescTag>Technical Proficiency</BoxDescTag>
             <BoxDescQuote>
               <br />
-              Well versed with SDLC and agile development. <br />
-              Understanding of OOPs concepts and
-              Computers Networking <br />
-              Understanding of Artificial Intelligence
-              and data analysis<br />
+              Strong knowledge of Software Development Life Cycle (SDLC) and Agile methodologies.<br />
+              Solid understanding of Object-Oriented Programming (OOP) concepts and Computer Networking.<br />
+              Hands-on experience with Dash, Flask, HTML, and CSS for web development.<br />
+              Proficient in developing and integrating backend technologies using React.js.<br />
+              Held the title of Code Owner at Cogoport for 9 months.<br />
               <br />
             </BoxDescQuote>
-            <BoxDescTag>&#60;bash&#62;</BoxDescTag>
+            <BoxDescTag>Technical Proficiency</BoxDescTag>
           </BoxDescDiv>
-        </SdeContainer>
+        </SvcContainer>
         <BackendContainer>
           <BoxTitleDiv>
             <BoxIcon $theme={theme_control[cookies.view]} src={backend_icon} alt="" />
             <BoxHeading>Backend Developer</BoxHeading>
           </BoxTitleDiv>
           <BoxDescDiv>
-            <BoxDescTag>Shikha-Lenovo ~ %</BoxDescTag>
+            <BoxDescTag>Software Proficiency</BoxDescTag>
             <BoxDescQuote>
               <br />
-              Experience with ROR and Golang. Understanding of LLD and HLD.
-              Smooth with RestAPIs and third party integrations. <br />
-              Worked with job scheduling and microservice. <br />
+              Proficient in Ruby on Rails (RoR) and Golang.<br />
+              Strong understanding of Low-Level Design (LLD) and High-Level Design (HLD).<br />
+              Experienced in working with RESTful APIs and integrating third-party services. <br />
+              Hands-on experience with job scheduling and microservices architecture. <br />
+              Skilled in scripting for data cleaning and preprocessing. <br />
+              Comfortable using Vim for managing variables and code editing. <br />
               <br />
             </BoxDescQuote>
-            <BoxDescTag>Shikha-Lenovo ~ %</BoxDescTag>
+            <BoxDescTag>Software Proficiency</BoxDescTag>
           </BoxDescDiv>
         </BackendContainer>
         <FrontendContainer>
           <BoxTitleDiv>
             <BoxIcon $theme={theme_control[cookies.view]} src={frontend_icon} alt="" />
-            <BoxHeading>Frontend Developer</BoxHeading>
+            <BoxHeading>Artificial Inteeligence</BoxHeading>
           </BoxTitleDiv>
           <BoxDescDiv>
-            <BoxDescTag>&#60;h2&#62;</BoxDescTag>
+            <BoxDescTag>Machine Learning & AI Development</BoxDescTag>
             <BoxDescQuote>
               <br />
-              Experienced with Dash, Flask, HTML and CSS <br />
-              Skilled in developing and integrating Backend technologies using React.js  <br />
-              
+              Proficient in Data Analysis and Machine Learning techniques.<br />
+              Published a paper using knowledge of Machine Learning models.<br />
+              Hands-on with scraping web data.<br />
+              Experienced in working with Artificial Intelligence and Neural Networks.<br />
+              Skilled in developing chatbots using LLM models such as Ollama, deepseek.<br />
+              Leveraging LLM APIs with Groq and OpenAI. <br />
               <br />
             </BoxDescQuote>
-            <BoxDescTag>&#60;h2&#62;</BoxDescTag>
+            <BoxDescTag>Machine Learning & AI Development</BoxDescTag>
           </BoxDescDiv>
         </FrontendContainer>
       </ExpertiseContainer>

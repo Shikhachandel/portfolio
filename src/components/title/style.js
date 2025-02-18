@@ -8,6 +8,6 @@ export const TitleDiv = styled.div`
   align-items: baseline;
   padding: 1em;
   margin-bottom: 2em;
-  // background-color: rgb(167, 150, 148);
+  background-color: rgb(167, 150, 148);
   color: var(--pallet-4);
 `

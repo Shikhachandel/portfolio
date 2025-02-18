@@ -14,6 +14,7 @@ export const ExperienceContainerGrid = styled.div`
 
 export const GridItem = styled.div`
     width: 100%;
+    justify-items: center;
 `
 export const GridTitleLayout = styled(GridItem)`
     grid-column-start: 1;

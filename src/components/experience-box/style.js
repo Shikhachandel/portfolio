@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { device } from "../../utils/global-constants";
 
-export const ExperienceBoxContiner = styled.div`
+export const ExperienceBoxContainer = styled.div`
     border: 1px solid var(--pallet-3);
     border-radius: 4px;
     box-shadow: 0px 0px 1px  var(--pallet-3);

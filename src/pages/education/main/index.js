@@ -5,9 +5,9 @@ import CollegeTitle from '../../../components/college-title';
 import parse from 'html-react-parser';
 
 const EducationMain = () => {
-    const { company_name } = useParams()
+    const { college_name } = useParams()
 
-    const [current_edu] = Educations.filter(exp => exp.college_url_name === company_name);
+    const [current_edu] = Educations.filter(exp => exp.college_url_name === college_name);
 
     const {
         college_degree,

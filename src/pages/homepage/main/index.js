@@ -23,12 +23,14 @@ function HomepageContent() {
         <HorizontalLine />
       </HorizontalLineContainer>
       <Description>
-        Welcome to my 'Hub of Innovation and Growth'. I'm a <HighlightContent>Software Developer </HighlightContent>  
-        with a passion for turning creative ideas into real-world solutions. 
-        I thrive in collaborative environments and enjoy working across diverse technologies, embracing flexibility 
-        and continuous learning.<br />
-        As the saying goes, “A jack of all trades is a master of none, but oftentimes better than a master of one,” 
-        and I believe in broadening my skill set to tackle challenges from multiple perspectives.
+      Welcome to my 'Space of Innovation and Problem-Solving'.
+      I'm a <HighlightContent>Software Developer</HighlightContent> passionate about crafting efficient, scalable, and impactful solutions. 
+      I thrive in collaborative environments and constantly push the boundaries of technology, embracing adaptability and 
+      continuous learning.<br/>
+      As the saying goes, <HighlightContent>"The only way to do great work is to love what you do"</HighlightContent>, and I believe in channeling my passion for 
+      AI, Machine Learning, and Backend Development into building systems that make a difference. 
+      With experience in Java, Golang, Ruby on Rails, Python and Node.js, I enjoy working across diverse technologies and 
+      architecting robust solutions.
       </Description>
     </MainContent>
   );

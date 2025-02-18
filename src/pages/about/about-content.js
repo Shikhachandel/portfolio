@@ -15,6 +15,7 @@ import {
   ProjectLink,
   Resume
 } from "./style.js";
+
 import { PageContainer } from "../../utils/styled-component";
 import { ResumeLink } from "../../utils/global-constants.js";
 
@@ -32,7 +33,7 @@ function AboutContent() {
             <H1>
               Shikha Chandel <Dash />
             </H1>
-            <H2>Backend Software Engineer</H2>
+            <H2>Full-Stack Software Engineer</H2>
             <Contacts>
               <Button to="/contact">
                 Get in touch
@@ -58,39 +59,46 @@ function AboutContent() {
         </LeftContainer>
         <RightContainer>
           <RightContent>
-            I am a versatile and driven Software Engineer with one year of professional 
-            experience. My work history demonstrates my adaptability across various 
-            programming languages and my enthusiasm for problem-solving. Whether 
-            developing websites or tackling machine learning challenges, I bring a 
-            passionate and flexible approach to every project.
+            Welcome to my corner of innovation and technology! 
+            <br />
+            I am Shikha Chandel, 
+            a passionate Software Developer currently pursuing my Master’s in Computer Science 
+            at UNC Charlotte, set to graduate in May 2025. My journey in tech began with a 
+            simple fascination for coding in high school, which quickly evolved into a deep 
+            passion for problem-solving, software development, and artificial intelligence.
             <br />
             <br />
             Checkout my <ProjectLink to={'/experiences'} >Work</ProjectLink> to know more.
             <br />
             <br />
-            My journey in the world of technology began in 10th grade, where I first 
-            encountered coding through shape-drawing exercises. This early exposure 
-            blossomed into a full-fledged passion during my bachelor's in Computer Science 
-            and Technology. Throughout my academic career, I immersed myself in a diverse 
-            array of programming languages and concepts, from Python and Java to database 
-            management and hardware studies.
+            From achieving a 9.6/10 CGPA in my Bachelor’s in Computer Science to 
+            pursuing my Master’s at UNC Charlotte with a 3.77/4 CGPA, I have consistently 
+            excelled as a student. Throughout my academic journey, I have worked with 
+            Python, Java, and C++, completed courses in Deep Learning and Object-Oriented Programming, 
+            and actively engaged in projects, including publishing research during my undergraduate studies.
             <br />
             <br />
             Beyond academics, I honed my leadership and interpersonal skills as a 
             student council member and class representative, organizing events and 
             liaising with faculty. I also participated in coding competitions and 
             volunteered to teach underprivileged students about the digital world.
+            I am also a Teaching Assistant at UNC Charlotte, assisting Master’s 
+            and PhD students in Artificial Intelligence, focusing on algorithms, 
+            data structures, and machine learning concepts. Teaching has 
+            strengthened my ability to break down complex ideas, mentor students, 
+            and reinforce my expertise in AI.
             <br />
             <br />
-            My professional experience as an Associate Software Engineer at 
-            Cogoport Private Limited further refined my technical skills and taught me 
-            invaluable lessons in teamwork and problem-solving. Now, as an international 
-            student at UNC Charlotte, I'm expanding my horizons and staying abreast 
-            of cutting-edge technologies.
+            With one year of professional experience as an Associate Software Engineer 
+            at Cogoport, I have worked on RESTful APIs, Golang microservices, system 
+            architecture optimization, and database management. My projects have ranged 
+            from customer service automation to large-scale background job processing. 
+            Additionally, I’ve contributed to technical documentation and agile methodologies 
+            as a Scrum Master, refining my ability to lead teams and manage software development lifecycles.
             <br />
             <br />
-            My ultimate goal is to leverage technology to make the world a better place, 
-            focusing on efficiency and optimization in my projects. I remain eager to 
+            My ultimate goal is to leverage technology to create impactful, scalable, and innovative 
+            solutions while inspiring more women to break barriers in the tech industry.I remain eager to 
             explore new opportunities and contribute to innovative solutions in the 
             ever-evolving tech landscape.
             <br />

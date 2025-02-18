@@ -22,23 +22,15 @@ const Educations = [
                 "start_date": "22/08/2024",
                 "end_date": "08/05/2025",
                 "work_span": "Fall 2024 to Spring 2025",
-                "web_url": "http://localhost:3000/experiences/unccTA",
+                "web_url": "https://www.charlotte.edu/",
             },
             {
                 "title": "AWS Academy Graduate - AWS Academy Data Engineering",
-                "desc": "OnCampus Job",
+                "desc": "Certified Course",
                 "start_date": "Issued: November 2024",
                 "end_date": "",
                 "work_span": "Fall 2024",
                 "web_url": "https://www.credly.com/badges/9b88d358-1596-499b-98f1-d8bd96b8d7a4/linked_in_profile",
-            },
-            {
-                "title": "Movie Finder Project",
-                "desc": "Capstone Project",
-                "start_date": "06/01/2024",
-                "end_date": "23/04/2024",
-                "work_span": "Spring 2024",
-                "web_url": "http://localhost:3000/projects/movie_finder",
             },
             {
                 "title": "Cashier",
@@ -47,6 +39,14 @@ const Educations = [
                 "end_date": "08/05/2025",
                 "work_span": "Fall 2023 to Spring 2025",
                 "web_url": "https://aux.charlotte.edu/directory/chartwells-dining-services/",
+            },
+            {
+                "title": "Movie Finder Project",
+                "desc": "Capstone Project",
+                "start_date": "06/01/2024",
+                "end_date": "23/04/2024",
+                "work_span": "Spring 2024",
+                "web_url": "https://shikhachandelmoviefinder.netlify.app/",
             }
         ],
         "brief":[

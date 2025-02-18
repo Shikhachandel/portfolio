@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
-import { ExperienceBoxContiner, ExperienceDescprition, ExperienceImage, ExperienceImageBox, 
+import { ExperienceBoxContainer, ExperienceDescprition, ExperienceImage, ExperienceImageBox, 
     ExperienceLink, ExperienceTextContent, ExperienceTitle } from "./style";
 
 const ExperienceBox = ({work}) => {
-    return (<ExperienceBoxContiner>
+    return (<ExperienceBoxContainer>
         <ExperienceImageBox>
             <Link to={work.links.web_url} target="_blank">
                 <ExperienceImage src={work.image} alt={work.work_title} />
@@ -18,7 +18,7 @@ const ExperienceBox = ({work}) => {
                 Learn More &#8594;
             </ExperienceLink>
         </ExperienceTextContent>
-    </ExperienceBoxContiner>
+    </ExperienceBoxContainer>
     )
 };
 

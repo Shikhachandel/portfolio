@@ -28,7 +28,7 @@ function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/projects/:project_name" element={<Project />} />
         <Route path="/educations" element={<Educations />} />
-        <Route path="/educations/:company_name" element={<Education/>} />
+        <Route path="/educations/:college_name" element={<Education/>} />
       </Routes>
     </Background>
   );

@@ -63,7 +63,7 @@ export const BoxIcon = styled.img`
     filter: invert(${props => props.$theme || 0});
 `
 
-export const SdeContainer = styled(Box)`
+export const SvcContainer = styled(Box)`
     border-bottom-left-radius: 3em;
 
     @media ${device.tabletS} {
