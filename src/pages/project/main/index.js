@@ -26,6 +26,8 @@ const ProjectMain = () => {
                 <WorkContentImage src={image} />
                 <WorkContentDetail>
                     <li><em>Checkout the <Link to={links.github_url} target="_blank" style={{color: 'var(--pallet-3)'}}>code</Link></em></li>
+                    <li><em>Checkout the <Link to={links.web_url} target="_blank" style={{color: 'var(--pallet-3)'}}>app</Link></em></li>
+                    
                     {
                         details?.map((sentence, index) => (
                             <Sentence key={`sentence_${index}`}>

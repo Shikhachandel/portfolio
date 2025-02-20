@@ -43,16 +43,13 @@ const Experiences = [
             }
         ],
         "brief":[
-            "I began as a Teaching Assistant under Prof. Dr. Dewan Ahmed in Fall 2024, after completing the course in Spring 2023. My role involves assisting students with coursework, grading, and proctoring exams. I also address queries via email and Zoom and continue this role through Spring 2025."
+            "I began as a Graduate Teaching Assistant under Prof. Dr. Dewan Ahmed in Fall 2024, after completing the course in Spring 2023. My role involves assisting students with coursework, grading, and proctoring exams. I also address queries via email and Zoom and continue this role through Spring 2025."
         ],
         "details": [
-            "I began my role as a <highlight>Teaching Assistant</highlight> under <highlight>Prof. Dr.Dewan Ahmed</highlight> in Fall 2024 after completing the same course as a student in Spring 2023.", 
-            "My primary responsibilities include conducting office hours to <highlight>assist students</highlight> with course-related questions, grading, projects, assignments, and conceptual understanding beyond the classroom.", 
-            "I also address student queries via email and Zoom meetings for additional support.",
-            "Another key part of my role involves <highlight>proctoring exams</highlight>, where I work alongside colleagues to help maintain classroom decorum during tests.",
-            "Additionally, I assist the professor in preparing homework questions and <highlight>grading assignments</highlight>.",
-            "I am continuing in this role at <highlight>present</highlight>, through the Spring 2025 semester.",
-            
+            "I began my role as a <highlight>Graduate Teaching Assistant</highlight> under <highlight>Prof. Dr. Dewan Ahmed</highlight> in Fall 2024, after having completed the same course as a student in Spring 2023. My primary responsibilities include conducting office hours to <highlight>assist Masters and PhD.</highlight> students with course-related queries, assignments, projects, grading, and enhancing their conceptual understanding beyond the classroom.",
+            "The course covers fundamental algorithms such as <highlight>BFS, DFS, IDS, UCS, and A* search</highlight>, along with problem-solving techniques like the <highlight>N-Queens Problem</highlight>. I also provide additional support to students by addressing their queries via email and Zoom meetings.",
+            "Another key aspect of my role involves proctoring exams, where I collaborate with my colleagues to maintain a structured and fair testing environment. Additionally, I assist the professor in preparing <highlight>homework</highlight> questions and <highlight>grading</highlight> assignments to ensure a smooth learning experience for students.",
+            "I am continuing in this role through the Spring 2025 semester. Recently, my responsibilities have expanded as I now serve as the <highlight>Head TA</highlight>, where I guide and mentor fellow Teaching Assistants, ensuring effective coordination and support across the course." 
         ]
     },
     {
@@ -98,17 +95,10 @@ const Experiences = [
             "I started my career at Cogoport in June 2022, working with Ruby on Rails, React.js, Kotlin, and AWS. My key contributions include building APIs, database migrations, CRON jobs, and developing the Ticket System microservice in Golang. I also optimized CI/CD pipelines, enhanced system performance, and documented software methodologies."
         ],
         "details": [
-            "I started my professional career in Cogoport on 27 June 2022.",
-            "Tech stack used by company was <highlight>Ruby on Rails, React.js</highlight> and Kotlin for developing product. <highlight>Redis</highlight> for cache. <highlight>Sidekiq</highlight> for CRON jobs. Architecture was build on AWS. Jetkins for CI/CD. <highlight>R-Spec</highlight> for unit testing. And few more which I must have missed.",
-            "My interest inclined with the backend part as it was more about understanding the data and the architecture of product along with the business logics which were to be included in APIs.",
-            "My first contibuiton started with the project <highlight>Promotions</highlight>, where I was lead in manual testing alongwith debugging, making new APIs in Ruby on Rails for system and also writing scripts to clean data .",
-            "Next, I worked on internal projects like <highlight>Dunning</highlight> and <highlight>Incentives</highlight> where I worked with queries to migrate, integrate and solve data issues from different databases using <highlight>PostGreSQL</highlight> and also implemented problem solving solutions to make <highlight>CRON</highlight> jobs effective.",
-            "I also worked in <highlight>Python</highlight> during integration of <highlight>Google Firebase</highlight> with our system.",
-            "My Major Contribution was my last project <highlight>Ticket System</highlight> for which I worked towards repository setup for new language <highlight>Golang</highlight> and created this micro service.", 
-            "Transformed system performance by architecting resilient Web APIs with Ruby on Rails, ensuring uninterrupted operational excellence amidst complex challenges.", 
-            "Authored comprehensive technical documentation on software methodologies leveraging Confluence and Notion, fostering knowledge dissemination across the team. ",
-            "Directed team activities, delegated tasks, delivered compelling progress presentations, and upheld performance standards utilizing JIRA, ensuring adherence to project deadlines.", 
-            "Streamlined workflow efficiency by implementing cutting-edge CI/CD pipelines via GitLab and GitHub, facilitating seamless collaboration and code integration. "
+            "I began my professional career at Cogoport on June 27, 2022, working with a diverse tech stack that included <highlight>Ruby on Rails</highlight>, <highlight>React.js</highlight>, and Kotlin for product development. The architecture was built on <highlight>AWS</highlight>, with <highlight>Redis</highlight> for caching, <highlight>Sidekiq</highlight> for CRON jobs, and <highlight>Jenkins</highlight> for CI/CD pipelines. Unit testing was implemented using <highlight>R-Spec</highlight>, among other tools. My interest naturally gravitated towards <highlight>backend</highlight> development, where I focused on understanding data flow, system architecture, and business logic integration within APIs.",
+            "My first major contribution was to the <highlight>Promotions</highlight> project, where I led manual testing, <highlight>debugging</highlight>, API development in Ruby on Rails, and wrote <highlight>data-cleaning</highlight> scripts to ensure system integrity. Following this, I worked on internal projects like <highlight>Dunning</highlight> and <highlight>Incentives</highlight>, where I handled database <highlight>migrations</highlight>, integrations, and data issue resolution using <highlight>PostgreSQL</highlight>. Additionally, I optimized CRON jobs for better efficiency and worked with <highlight>Python</highlight> to integrate <highlight>Google Firebase</highlight> with our system.",
+            "One of my most significant contributions was the <highlight>Ticket System</highlight> project, where I set up the repository for a new <highlight>Golang-based Microservice</highlight> and was announced as <highlight>code-owner</highlight> by my company. This involved architecting resilient Web APIs in Golang to ensure seamless system performance and operational excellence. I also worked with shell scripting using <highlight>Bash</highlight> and <highlight>Vim</highlight> for command-line operations, improving automation workflows.",
+            "Beyond technical development, I played a key role in team coordination and documentation. I authored comprehensive technical documentation on software methodologies using <highlight>Confluence</highlight> and <highlight>Notion</highlight>, ensuring smooth knowledge transfer across the team. As the <highlight>Scrum Master</highlight>, I was responsible for conducting daily standups, managing task delegation, tracking progress, and delivering presentations to maintain performance standards via <highlight>JIRA</highlight>. Additionally, I streamlined <highlight>CI/CD</highlight> pipelines through GitLab and GitHub, enhancing workflow efficiency and facilitating smooth code integration."
         ]
     },
     {
@@ -120,7 +110,7 @@ const Experiences = [
         "end_date": "01/09/2020",
         "image": verzeo,
         "tech_stack": ["Python", "Pandas", "Numpy", "Seaborn", "TFIDF"],
-        "description": "Collaborated on a team project by scraping web data and performing sentiment analysis on news websites using Pandas, NumPy, and data visualization with Seaborn.Engineered tweet classification utilizing TFIDF methodology to enhance sentiment analysis capabilities.",
+        "description": "Collaborated on a team project by scraping web data and performing sentiment analysis on twitter data using Pandas, NumPy, and data visualization with Seaborn.Engineered tweet classification utilizing TFIDF methodology to enhance sentiment analysis capabilities.",
         "links": {
             "web_url": "https://learn.verzeo.in/",
         },
@@ -135,15 +125,15 @@ const Experiences = [
             }
         ],
         "brief": [
-            "During my third year of college, I completed an internship where I learned Machine Learning fundamentals through online training. I worked on Sentiment Analysis for news websites, using Pandas, NumPy, and Seaborn for data processing and visualization. I also developed a tweet classification system using TF-IDF to enhance sentiment analysis accuracy."
+            "During my third year of college, I completed an internship where I learned Machine Learning fundamentals through online training. I worked on training a Random Forest Model to recommend movie recommendation, using Pandas, NumPy, and Seaborn for data processing and visualization. I also developed a tweet classification system using TF-IDF to enhance sentiment analysis accuracy."
         ],
         "details": [
             "During my third year of college, I completed an internship where I was introduced to the fundamentals of <highlight>Machine Learning</highlight> through online training sessions.",
             "As part of the internship, I worked on two key projects that allowed me to apply these concepts in practical scenarios.",
-            "For the first project, I collaborated with a team to develop a <highlight>Sentiment Analysis</highlight> model for news websites.", 
-            "We began by scraping data from various news sources, then used <highlight>Pandas</highlight> and <highlight>NumPy</highlight> for data preprocessing and cleaning.",
-            "To gain insights from the data, we employed <highlight>Seaborn</highlight> for visualization, identifying patterns and trends in public sentiment.",
-            "In the second project, we engineered a tweet classification application designed to categorize tweets as positive or negative, enhancing the company’s social media analysis capabilities.",
+            "For the first project, I worked with a team to develop a <highlight>Random Forest</highlight>-based Movie Recommendation System.",
+            "We began by <highlight>scraping</highlight> data from the IMDb website, followed by preprocessing it using <highlight>NumPy</highlight> and <highlight>Pandas</highlight>. The model was trained based on movie genres to generate personalized recommendations for viewers.",
+            "To better understand the data and optimize model training, we used <highlight>Seaborn</highlight> for visualization, analyzing the distribution of key parameters to enhance performance.",
+            "In the second project, we developed a tweet categorization application using <highlight>Sentiment Analysis</highlight> to categorize tweets as good or negative, hence improving the company's social media analytical skills.",
             "We utilized the <highlight>TF-IDF (Term Frequency-Inverse Document Frequency)</hightlight> method to convert text data into numerical features, which improved the accuracy of our sentiment analysis model.",
             "This project not only strengthened my understanding of <highlight>Natural Language Processing</highlight> but also gave me hands-on experience in building machine learning models for real-world applications.",
         ]
