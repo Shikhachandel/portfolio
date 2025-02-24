@@ -1,5 +1,9 @@
 import umit from "../icons/umit.webp";
 import uncc from "../icons/uncc.png";
+import scholarship from "../icons/scholarship.png";
+import codechef from "../icons/chandel shikha certi.pdf";
+import wordpress from "../icons/Wordpress Coursera.pdf";
+import hackathon from "../icons/NITManipurrank99.pdf";
 
 const Educations = [
     {
@@ -35,10 +39,18 @@ const Educations = [
             {
                 "title": "Cashier",
                 "desc": "OnCampus Job",
-                "start_date": "01/11/2023",
+                "start_date": "10/10/2023",
                 "end_date": "08/05/2025",
-                "work_span": "Fall 2023 to Spring 2025",
+                "work_span": "Fall 2023-Spring 2025",
                 "web_url": "https://aux.charlotte.edu/directory/chartwells-dining-services/",
+            },
+            {
+                "title": "Graduate Fellowship COIT Scholarship",
+                "desc": "Scholarship",
+                "start_date": "08/19/2024",
+                "end_date": "05/08/2025",
+                "work_span": "Fall 2024-Spring 2025",
+                "web_url": scholarship,
             },
             {
                 "title": "Movie Finder Project",
@@ -89,6 +101,30 @@ const Educations = [
                 "end_date": "2020",
                 "work_span": "2 Months",
                 "web_url": "https://drive.google.com/file/d/1wXbJZ83pAqhwyNxjBOfpL2MIKLBePAoZ/view?usp=sharing",
+            },
+            // {
+            //     "title": "Codechef-CODATHON",
+            //     "desc": "Codechef UMIT",
+            //     "start_date": "28/12/2020",
+            //     "end_date": "29/11/2020",
+            //     "work_span": "2 Day",
+            //     "web_url": codechef,
+            // },
+            {
+                "title": "Wordpress for blog creation",
+                "desc": "Coursera",
+                "start_date": "28/12/2020",
+                "end_date": "29/12/2020",
+                "work_span": "1 Day",
+                "web_url": wordpress,
+            },
+            {
+                "title": "Hackathon n Code Clash of D2C Online Hackathon Festival(OHF) Season 2",
+                "desc": "Scored 99th rank allover India organised by National Institute of Technology(NIT), Manipur",
+                "start_date": "30/12/2020",
+                "end_date": "29/11/2021",
+                "work_span": "1 Day",
+                "web_url": hackathon,
             }
         ],
         "brief":[
@@ -98,7 +134,7 @@ const Educations = [
             "I completed my Bachelor of Technology in Computer Science from Usha Mittal Institute of Technology in 2022.",
             "Throughout my studies, I gained proficiency in programming languages such as <highlight>C++, Visual Basic, Java, Python, HTML, and CSS</highlight>. My coursework included subjects like <highlight>Deep Learning, Machine Learning, Object-Oriented Programming, Compilers, Time Complexity Analysis, and Data Warehousing</highlight>, which provided a strong technical foundation.",
             "Beyond academics, I was actively involved in extracurricular activities. I served as a <highlight>Class Representative</highlight> during my first, third, and fourth years, developing <highlight>leadership</highlight> and <highlight>communication skills</highlight> while representing my peers. Additionally, I contributed to organizing Arcane Illusion, the largest cultural fest at our university, enhancing my <highlight>teamwork</highlight> and <highlight>event management</highlight> capabilities.",
-            "I frequently participated in <highlight>hackathons</highlight> and coding competitions, winning several prizes that strengthened my problem-solving abilities and technical expertise. In my third year, I worked on a <highlight>Drowsiness Detection</highlight> project, applying machine learning techniques to identify driver fatigue. For my final semester project, I collaborated on <highlight>Stock Market Prediction</highlight> using machine learning models, and our work was later published with the guidance of <highlight>Prof. Narendra Gawai</highlight>.",
+            "I frequently participated in <highlight>hackathons</highlight> and coding competitions which strengthened my problem-solving abilities and technical expertise. In my third year, I worked on a <highlight>Drowsiness Detection</highlight> project, applying machine learning techniques to identify driver fatigue. For my final semester project, I collaborated on <highlight>Stock Market Prediction</highlight> using machine learning models, and our work was later published with the guidance of <highlight>Prof. Narendra Gawai</highlight>.",
             "These experiences have equipped me with strong technical skills, leadership qualities, and a passion for continuous learning.",
         ]
     }

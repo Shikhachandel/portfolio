@@ -28,4 +28,4 @@ const sizes = {
     desktop: `(max-width: ${sizes.desktop})`,
   };
   
-  export const ResumeLink = "https://drive.google.com/file/d/1XdLwLmjCpOeto5SLpe7QNF1JlA5PYa7z/view";
+  export const ResumeLink = "https://drive.google.com/file/d/1Hw3zEMcb3YDbzXEVJiLHkVL1p8MZkUMK/view?usp=sharing";

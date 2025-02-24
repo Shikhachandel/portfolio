@@ -6,7 +6,7 @@ const Experiences = [
     {
         "work_url_name": "unccTA",
         "work_title": "University Of North Carolina, Charlotte",
-        "work_position": "TA - Graduate Assistantship",
+        "work_position": "Graduate Teaching Assistantship",
         "work_location": "Charlotte, USA",
         "start_date": "22/08/2024",
         "end_date": "08/05/2025",
