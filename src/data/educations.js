@@ -1,7 +1,7 @@
 import umit from "../icons/umit.webp";
 import uncc from "../icons/uncc.png";
 import scholarship from "../icons/scholarship.png";
-import codechef from "../icons/chandel shikha certi.pdf";
+// import codechef from "../icons/chandel shikha certi.pdf";
 import wordpress from "../icons/Wordpress Coursera.pdf";
 import hackathon from "../icons/NITManipurrank99.pdf";
 
