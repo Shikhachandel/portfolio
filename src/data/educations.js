@@ -21,7 +21,7 @@ const Educations = [
         },
         "major_contributions": [
             {
-                "title": "Teaching Assistant for Artificial Intelligence_6150",
+                "title": "Graduate Teaching Assistant for Artificial Intelligence",
                 "desc": "OnCampus Job",
                 "start_date": "22/08/2024",
                 "end_date": "08/05/2025",

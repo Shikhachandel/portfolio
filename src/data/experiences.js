@@ -6,7 +6,7 @@ const Experiences = [
     {
         "work_url_name": "unccTA",
         "work_title": "University Of North Carolina, Charlotte",
-        "work_position": "Graduate Teaching Assistantship",
+        "work_position": "Graduate Teaching Assistant",
         "work_location": "Charlotte, USA",
         "start_date": "22/08/2024",
         "end_date": "08/05/2025",
@@ -55,7 +55,7 @@ const Experiences = [
     {
         "work_url_name": "cogoport",
         "work_title": "COGO FREIGHT PVT. LTD. Chain",
-        "work_position": "Associate Software Engineer",
+        "work_position": "Software Developer",
         "work_location": "Mumbai, India",
         "start_date": "27/06/2022",
         "end_date": "02/04/2023",
@@ -104,7 +104,7 @@ const Experiences = [
     {
         "work_url_name": "verzeo",
         "work_title": "Verzeo",
-        "work_position": "Internship",
+        "work_position": "Machine Learning Internship",
         "work_location": "Remote",
         "start_date": "01/07/2020",
         "end_date": "01/09/2020",
