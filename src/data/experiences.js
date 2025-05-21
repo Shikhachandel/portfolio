@@ -6,13 +6,13 @@ const Experiences = [
     {
         "work_url_name": "unccTA",
         "work_title": "University Of North Carolina, Charlotte",
-        "work_position": "Graduate Teaching Assistant",
+        "work_position": "Graduate Teaching Assistant ITCS_6150: Artificial Intelligence",
         "work_location": "Charlotte, USA",
         "start_date": "22/08/2024",
         "end_date": "08/05/2025",
         "image": unccTA,
         "tech_stack": ["JAVA", "Artificial Intelligence"],
-        "description": "As a Teaching Assistant, I support Master’s and PhD students in their Artificial Intelligence coursework, focusing on foundational algorithms such as Breadth-First Search (BFS) and Depth-First Search (DFS). My responsibilities include clarifying complex concepts during office hours, guiding students through assignments and projects, and providing detailed feedback on their work. This role allows me to engage deeply with AI concepts while fostering a collaborative learning environment for advanced students.",
+        "description": "As a Teaching Assistant, I supported Master’s and PhD students in their Artificial Intelligence coursework, focusing on foundational algorithms such as Breadth-First Search (BFS) and Depth-First Search (DFS). My responsibilities include clarifying complex concepts during office hours, guiding students through assignments and projects, and providing detailed feedback on their work. This role allows me to engage deeply with AI concepts while fostering a collaborative learning environment for advanced students.",
         "links": {
             "web_url": "https://www.charlotte.edu/",
         },
@@ -49,7 +49,7 @@ const Experiences = [
             "I began my role as a <highlight>Graduate Teaching Assistant</highlight> under <highlight>Prof. Dr. Dewan Ahmed</highlight> in Fall 2024, after having completed the same course as a student in Spring 2023. My primary responsibilities include conducting office hours to <highlight>assist Masters and PhD.</highlight> students with course-related queries, assignments, projects, grading, and enhancing their conceptual understanding beyond the classroom.",
             "The course covers fundamental algorithms such as <highlight>BFS, DFS, IDS, UCS, and A* search</highlight>, along with problem-solving techniques like the <highlight>N-Queens Problem</highlight>. I also provide additional support to students by addressing their queries via email and Zoom meetings.",
             "Another key aspect of my role involves proctoring exams, where I collaborate with my colleagues to maintain a structured and fair testing environment. Additionally, I assist the professor in preparing <highlight>homework</highlight> questions and <highlight>grading</highlight> assignments to ensure a smooth learning experience for students.",
-            "I am continuing in this role through the Spring 2025 semester. Recently, my responsibilities have expanded as I now serve as the <highlight>Head TA</highlight>, where I guide and mentor fellow Teaching Assistants, ensuring effective coordination and support across the course." 
+            "I worked through the Spring 2025 semester. My responsibilities expanded during this period, as the <highlight>Head TA</highlight>, where I guided and mentored fellow Teaching Assistants, ensuring effective coordination and support across the course." 
         ]
     },
     {

@@ -8,20 +8,20 @@ import hackathon from "../icons/NITManipurrank99.pdf";
 const Educations = [
     {
         "college_url_name": "uncc",
-        "college_title": "University Of North Carolina Charlotte",
-        "college_degree": "Masters In Technology",
+        "college_title": "University Of North Carolina, Charlotte",
+        "college_degree": "Masters In Science",
         "college_location": "Charlotte, USA",
         "start_date": "21/08/2023",
-        "end_date": "30/05/2025",
+        "end_date": "10/05/2025",
         "image": uncc,
         "tech_stack": ["Machine Learning", "Knowledge Discovery In Databases", "Algorithms And Data Structures", "Software Design And Implementation", "Big Data and Analytics"],
-        "grade": "3.77/4",
+        "grade": "3.8/4",
         "links": {
             "web_url": "https://www.charlotte.edu/",
         },
         "major_contributions": [
             {
-                "title": "Graduate Teaching Assistant for Artificial Intelligence",
+                "title": "Graduate Teaching Assistant for ITCS_6150:Artificial Intelligence",
                 "desc": "OnCampus Job",
                 "start_date": "22/08/2024",
                 "end_date": "08/05/2025",
@@ -62,10 +62,10 @@ const Educations = [
             }
         ],
         "brief":[
-            "I am pursuing an M.S. in Computer Science at UNC Charlotte (Fall 2023). I’ve completed courses in AI, Machine Learning, and Software Design. I developed a Movie Finder System as a capstone project. I’ve worked as a TA for AI under Dr. Dewan Ahmed and am an active TISA member."
+            "I completed my Masters in Computer Science at UNC Charlotte (Intake: Fall 2023). I’ve completed courses in AI, Machine Learning, and Software Design. I developed a Movie Finder System as a capstone project. I’ve worked as a TA for AI under Dr. Dewan Ahmed and am an active TISA member."
         ],
         "details": [
-            "I am currently pursuing a Master of Science in Computer Science at UNC Charlotte, having joined in Fall 2023 (August 2023). My coursework has provided me with a strong foundation in <highlight>Artificial Intelligence, Machine Learning, Algorithms and Data Structures, Data Information and Visualization, Knowledge Discovery and Data Mining, and Software System Design and Implementation.</highlight>",
+            "I graduated from Master of Science in Computer Science at UNC Charlotte, having joined in Fall 2023 (August 2023). My coursework has provided me with a strong foundation in <highlight>Artificial Intelligence, Machine Learning, Algorithms and Data Structures, Data Information and Visualization, Data Mining, Large Language Models and Software System Design and Implementation.</highlight>",
             "As part of my academic journey, I have worked on several projects. One of my most notable projects is the <highlight>Movie Finder System</highlight>, developed as part of my capstone. This system allows users to track their watched and bookmarked movies while providing seamless access to IMDb’s database for retrieving movie-related information. This project enhanced my skills in software development, database management, and user experience design.",
             "In addition to my academic work, I have gained valuable professional experience. I worked as a cashier at <highlight>Compass Group</highlight> for four semesters, where I developed strong communication and customer service skills, which have proven invaluable in team collaborations and professional interactions. Currently, I am serving as a <highlight>Graduate Teaching Assistant</highlight> for Artificial Intelligence under <highlight>Dr. Dewan Ahmed</highlight>, a role I have held for two semesters. In this position, I assist students with AI concepts, projects, and assignments, conduct office hours, and support grading and exam proctoring.",
             "Beyond academics and work experience, I am actively involved in student organizations. I am a member of the <highlight>TISA (Taiwanese International Student Association)</highlight>, which has provided opportunities for networking, cultural exchange, and community engagement.",
