@@ -1,4 +1,20 @@
-import { Brief, ContributionItem, ContributionList, ContributionTitle, Skill, SkillsDiv, Title, TitleDiv, TitleLink, CollegeContainer, CollegeDuration, CollegeDegree, CollegeLocation, CollegeGrade} from "./style";
+import {
+    Brief,
+    ContributionItem,
+    ContributionList,
+    ContributionTitle,
+    Skill,
+    SkillsDiv,
+    SectionTitle,
+    Title,
+    TitleDiv,
+    TitleLink,
+    CollegeContainer,
+    CollegeDuration,
+    CollegeDegree,
+    CollegeLocation,
+    CollegeGrade
+} from "./style";
 import FormatDate from "../../../commons/datetime";
 
 const College = ({ college }) => {
@@ -29,32 +45,31 @@ const College = ({ college }) => {
                 {college.brief}
             </Brief>
 
-            Relevant Work:
+            <SectionTitle>Tech Stack</SectionTitle>
             <SkillsDiv>
                 {college.tech_stack.map((skill, index) => (
-                    <Skill key={`li_${index}`}>{skill}</Skill>
+                    <Skill key={`skill_${index}`}>{skill}</Skill>
                 ))}
             </SkillsDiv>
 
-            
-            {
-                college.major_contributions?
-                    (<div>
-                        <ContributionTitle></ContributionTitle>
-                        <ContributionList>
-                        {
-                            college.major_contributions.map((contribution, index) => (
-                                <ContributionItem key={`contribution_${index}`}>
-                                <div>* <a href={contribution.web_url} target="_blank" rel="noopener noreferrer"  style={{ color: "var(--pallet-3)" }} >{contribution.title}</a></div>
-                                <div>- {contribution.desc}</div>
-                                <div>- {contribution.start_date}</div>
-                                <div>- {contribution.work_span}</div>
-                                </ContributionItem>
-                            ))
-                        }
-                        </ContributionList>
-                    </div>) : ''
-            }
+            {college.major_contributions?.length ? (
+                <>
+                    <ContributionTitle>Major Contributions</ContributionTitle>
+                    <ContributionList>
+                        {college.major_contributions.map((contribution, index) => (
+                            <ContributionItem key={`contribution_${index}`}>
+                                {contribution.web_url ? (
+                                    <a href={contribution.web_url} target="_blank" rel="noopener noreferrer">
+                                        {contribution.title}
+                                    </a>
+                                ) : (
+                                    contribution.title
+                                )}
+                            </ContributionItem>
+                        ))}
+                    </ContributionList>
+                </>
+            ) : null}
 
         </CollegeContainer>
     )

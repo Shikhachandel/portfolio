@@ -1,24 +1,14 @@
 import HomepageTitle from "../../../components/homepage-titles";
-import { ExpContainer, ExperienceGrid } from "./style";
+import { ExpContainer } from "./style";
 import Experiences from "../../../data/experiences";
-import ExperienceBox from "../../../components/experience-box";
+import ExperienceTimeline from "../../../components/experience-timeline";
 
 function ExperienceContent() {
   const componentTitle = 'Experience'
   return (
     <ExpContainer>
       <HomepageTitle title={componentTitle} />
-      <ExperienceGrid>
-        {
-          Experiences.map((work, index) => (
-            <ExperienceBox
-              key={`work_${index}`}
-              work={work}
-              index={index}
-            />
-          ))
-        }
-      </ExperienceGrid>
+      <ExperienceTimeline experiences={Experiences} />
     </ExpContainer>
   );
 }

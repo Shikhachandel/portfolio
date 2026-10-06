@@ -4,6 +4,40 @@ import paddleGame from '../icons/paddle_game.png';
 
 const ProjectData = [
     {
+        "project_url_name": "legal_information_retrieval",
+        "project_title": "Legal Information Retrieval Pipeline",
+        "start_date": "01/04/2026",
+        "end_date": "01/04/2026",
+        "links": {
+            "github_url": "https://github.com/Shikhachandel/LLM-Agent-Legal-Retrieval",
+            "web_url": ""
+        },
+        "tech_stack": ["LLMs", "Hybrid Retrieval", "Fine-Tuning", "Multilingual NLP"],
+        "desc": "Hybrid sparse and dense retrieval with LLM fine-tuning for multilingual legal information retrieval.",
+        "brief": "Compared a hybrid sparse and dense retrieval pipeline with different LLM fine-tuning approaches over 269K+ legal records, evaluating classification performance using macro-F1 for a multilingual legal retrieval competition.",
+        "details": [
+            "Compared a hybrid sparse and dense retrieval pipeline with different LLM fine-tuning approaches over 269K+ legal records.",
+            "Evaluated classification performance using macro-F1 for a multilingual legal retrieval competition."
+        ]
+    },
+    {
+        "project_url_name": "ai_educational_assistant",
+        "project_title": "Study Budy AI",
+        "start_date": "01/05/2025",
+        "end_date": "01/05/2025",
+        "links": {
+            "github_url": "https://github.com/Shikhachandel/StudyBudy-AI",
+            "web_url": "https://my-ai-study-buddy.streamlit.app/"
+        },
+        "tech_stack": ["LLMs", "RAG", "Embeddings", "Streamlit"],
+        "desc": "An LLM learning assistant for transcript summarization, quizzes, and contextual Q&A.",
+        "brief": "Built and deployed an LLM learning assistant using embedding-based retrieval and query refinement, delivering an end-to-end workflow for transcript summarization, quizzes, and contextual Q&A.",
+        "details": [
+            "Built and deployed an LLM learning assistant using embedding-based retrieval and query refinement.",
+            "Delivered an end-to-end workflow for transcript summarization, quizzes, and contextual Q&A."
+        ]
+    },
+    {
         "project_url_name": "movie_finder",
         "project_title": "Movie Finder",
         "image": movieFinder,

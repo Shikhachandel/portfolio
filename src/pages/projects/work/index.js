@@ -1,4 +1,19 @@
-import { Brief, ContributionItem, ContributionList, ContributionTitle, Skill, SkillsDiv, Title, TitleDiv, TitleLink, WorkContainer, WorkDuration } from "./style";
+import {
+    Brief,
+    ContributionItem,
+    ContributionList,
+    ContributionTitle,
+    Skill,
+    SkillsDiv,
+    SectionTitle,
+    Title,
+    TitleDiv,
+    ProjectHeading,
+    ProjectActions,
+    ProjectAction,
+    WorkContainer,
+    WorkDuration
+} from "./style";
 import FormatDate from "../../../commons/datetime";
 
 const Work = ({ work }) => {
@@ -8,32 +23,49 @@ const Work = ({ work }) => {
     return (
         <WorkContainer>
             <TitleDiv>
-                <Title><TitleLink to={`../projects/${work.project_url_name}`}>{work.project_title}</TitleLink></Title>
+                <ProjectHeading>
+                    <Title>{work.project_title}</Title>
+                    {(work.links?.github_url || work.links?.web_url) && (
+                        <ProjectActions>
+                            {work.links.github_url && (
+                                <ProjectAction href={work.links.github_url} target="_blank" rel="noreferrer">
+                                    Code link
+                                </ProjectAction>
+                            )}
+                            {work.links.web_url && (
+                                <ProjectAction href={work.links.web_url} target="_blank" rel="noreferrer">
+                                    Published at
+                                </ProjectAction>
+                            )}
+                        </ProjectActions>
+                    )}
+                </ProjectHeading>
                 <WorkDuration>
-                    {`${start_date} - ${end_date}`}
+                    {start_date === end_date ? start_date : `${start_date} - ${end_date}`}
                 </WorkDuration>
             </TitleDiv>
             <Brief>
                 {work.brief}
             </Brief>
+            <SectionTitle>Tech Stack</SectionTitle>
             <SkillsDiv>
                 {work.tech_stack.map((skill, index) => (
-                    <Skill key={`li_${index}`}>{skill}</Skill>
+                    <Skill key={`skill_${index}`}>{skill}</Skill>
                 ))}
             </SkillsDiv>
-            {
-                work.major_contributions?
-                    (<div>
-                        <ContributionTitle>Major contribution work's</ContributionTitle>
-                        <ContributionList>
-                            {
-                                work.major_contributions.map((contribution, index) => (
-                                    <ContributionItem key={`contribution_${index}`}>- {contribution.title}</ContributionItem>
-                                ))
-                            }
-                        </ContributionList>
-                    </div>) : ''
-            }
+
+            {work.major_contributions?.length ? (
+                <>
+                    <ContributionTitle>Major Contributions</ContributionTitle>
+                    <ContributionList>
+                        {work.major_contributions.map((contribution, index) => (
+                            <ContributionItem key={`contribution_${index}`}>
+                                {contribution.title}
+                            </ContributionItem>
+                        ))}
+                    </ContributionList>
+                </>
+            ) : null}
         </WorkContainer>
     )
 };

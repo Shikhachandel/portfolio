@@ -1,18 +1,66 @@
 import unccTA from "../icons/uncc.png";
+import ncatRA from "../icons/ncat.webp";
 import cogoport from "../icons/cogoport_640.png";
 import verzeo from "../icons/verzeo.jpg";
 
 const Experiences = [
     {
-        "work_url_name": "unccTA",
-        "work_title": "University Of North Carolina, Charlotte",
-        "work_position": "Graduate Teaching Assistant ITCS_6150: Artificial Intelligence",
-        "work_location": "Charlotte, USA",
-        "start_date": "22/08/2024",
-        "end_date": "08/05/2025",
-        "image": unccTA,
-        "tech_stack": ["JAVA", "Artificial Intelligence"],
-        "description": "As a Teaching Assistant, I supported Master’s and PhD students in their Artificial Intelligence coursework, focusing on foundational algorithms such as Breadth-First Search (BFS) and Depth-First Search (DFS). My responsibilities include clarifying complex concepts during office hours, guiding students through assignments and projects, and providing detailed feedback on their work. This role allows me to engage deeply with AI concepts while fostering a collaborative learning environment for advanced students.",
+        "work_url_name": "ncatTA",
+        "work_title": "NC Agricultural & Technical State University",
+        "work_position": "Graduate Teaching Assistant",
+        "work_location": "Greensboro, USA",
+        "start_date": "22/08/2026",
+        "end_date": "08/05/2027",
+        "image": ncatRA,
+        "tech_stack": ["Statistics", "Mathematics","Teaching", "Grading", "Proctoring"],
+        "description": "As a Graduate Teaching Assistant, I provide academic support to undergraduate students in Mathematics and Statistics courses. My responsibilities include conducting help sessions, grading assignments, and proctoring exams.",
+        "links": {
+            "web_url": "https://www.charlotte.edu/",
+        },
+        "major_contributions": [
+            {
+                "title": "Grading",
+                "desc": "",
+                "start_date": "",
+                "end_date": "",
+                "work_span": "",
+                "web-url": "",
+            },
+            {
+                "title": "Help Sessions",
+                "desc": "",
+                "start_date": "",
+                "end_date": "",
+                "work_span": "",
+                "web-url": ""
+            },
+            {
+                "title": "Lab Assistance",
+                "desc": "",
+                "start_date": "",
+                "end_date": "",
+                "work_span": "",
+                "web-url": ""
+            }
+        ],
+        "brief":[
+            "I am beginning my role as a Graduate Teaching Assistant in Fall 2026.My role involves assisting students with coursework, grading, and proctoring exams. I also address queries via email and Zoom."
+        ],
+        "details": [
+            "I am beginning my role as a <highlight>Graduate Teaching Assistant</highlight> in Fall 2026. My primary responsibilities include conducting office hours to <highlight>assist Masters and PhD.</highlight> students with course-related queries, assignments, projects, grading, and enhancing their conceptual understanding beyond the classroom.",
+            "The course covers fundamental concepts in <highlight>MATHEMATICS and STATISTICS</highlight>. I also provide additional support to students by addressing their queries via email and Zoom meetings.",
+        ]
+    },
+    {
+        "work_url_name": "ncatRA",
+        "work_title": "NC Agricultural & Technical State University",
+        "work_position": "Graduate Research Assistant for GEMs Lab",
+        "work_location": "Greensboro, USA",
+        "start_date": "22/08/2025",
+        "end_date": "08/05/2026",
+        "image": ncatRA,
+        "tech_stack": ["Remote Sensing", "Artificial Intelligence", "Photogrammetry", "ArcGIS Pro"],
+        "description": "As a Graduate Research Assistant at the GEMs Lab under Dr. Leila Hashemi-Beni, I conduct research in Remote Sensing, Artificial Intelligence, and Computer Vision. My work focuses on disaster assessment using spatial and frequency analysis, contributing to a conference paper accepted at IGARSS 2026.",
         "links": {
             "web_url": "https://www.charlotte.edu/",
         },
@@ -34,7 +82,54 @@ const Experiences = [
                 "web-url": ""
             },
             {
-                "title": "Procturing",
+                "title": "Proctoring",
+                "desc": "",
+                "start_date": "",
+                "end_date": "",
+                "work_span": "",
+                "web-url": ""
+            }
+        ],
+        "brief":[
+            "I am beginning my role as a Graduate Teaching Assistant in Fall 2026. My role involves assisting students with coursework, grading, and proctoring exams. I also address queries via email and Zoom."
+        ],
+        "details": [
+            "I am beginning my role as a <highlight>Graduate Teaching Assistant</highlight> under <highlight>Prof. Dr. Dewan Ahmed</highlight> in Fall 2026, after having completed the same course as a student in Spring 2023. My primary responsibilities include conducting office hours to <highlight>assist Masters and PhD.</highlight> students with course-related queries, assignments, projects, grading, and enhancing their conceptual understanding beyond the classroom.",
+            "The course covers fundamental concepts in <highlight>MATHEMATICS and STATISTICS</highlight>. I also provide additional support to students by addressing their queries via email and Zoom meetings.",
+        ]
+    },
+    {
+        "work_url_name": "unccTA",
+        "work_title": "University Of North Carolina, Charlotte",
+        "work_position": "Graduate Teaching Assistant ITCS_6150: Artificial Intelligence",
+        "work_location": "Charlotte, USA",
+        "start_date": "22/08/2024",
+        "end_date": "08/05/2025",
+        "image": unccTA,
+        "tech_stack": ["JAVA", "Artificial Intelligence"],
+        "description": "As a Teaching Assistant, I supported Master's and PhD students in their Artificial Intelligence coursework, focusing on foundational algorithms such as Breadth-First Search (BFS) and Depth-First Search (DFS). My responsibilities include clarifying complex concepts during office hours, guiding students through assignments and projects, and providing detailed feedback on their work. This role allows me to engage deeply with AI concepts while fostering a collaborative learning environment for advanced students.",
+        "links": {
+            "web_url": "https://www.charlotte.edu/",
+        },
+        "major_contributions": [
+            {
+                "title": "Grading",
+                "desc": "",
+                "start_date": "",
+                "end_date": "",
+                "work_span": "",
+                "web-url": "",
+            },
+            {
+                "title": "Doubt Solving",
+                "desc": "",
+                "start_date": "",
+                "end_date": "",
+                "work_span": "",
+                "web-url": ""
+            },
+            {
+                "title": "Proctoring",
                 "desc": "",
                 "start_date": "",
                 "end_date": "",
@@ -61,7 +156,7 @@ const Experiences = [
         "end_date": "02/04/2023",
         "image": cogoport,
         "tech_stack": ["Ruby on Rails", "Go Lang", "Python", "Sidekiq", "React.js", "PostgreSQL"],
-        "description": "Spearheaded technology stack expansion by integrating Golang, augmenting product offerings, and amplifying development capabilities.Started my professional carrer with backend technologies and writing CRUD APIs in Ruby on Rails. Learned more about Authorization and Authentication. Paved my way to bigger projects including micro-services and API integrations with third party APIs",
+        "description": "Spearheaded technology stack expansion by integrating Golang, augmenting product offerings, and amplifying development capabilities.Started my professional career with backend technologies and writing CRUD APIs in Ruby on Rails. Learned more about Authorization and Authentication. Paved my way to bigger projects including micro-services and API integrations with third party APIs",
         "links": {
             "web_url": "https://www.cogoport.com",
         },
@@ -134,7 +229,7 @@ const Experiences = [
             "We began by <highlight>scraping</highlight> data from the IMDb website, followed by preprocessing it using <highlight>NumPy</highlight> and <highlight>Pandas</highlight>. The model was trained based on movie genres to generate personalized recommendations for viewers.",
             "To better understand the data and optimize model training, we used <highlight>Seaborn</highlight> for visualization, analyzing the distribution of key parameters to enhance performance.",
             "In the second project, we developed a tweet categorization application using <highlight>Sentiment Analysis</highlight> to categorize tweets as good or negative, hence improving the company's social media analytical skills.",
-            "We utilized the <highlight>TF-IDF (Term Frequency-Inverse Document Frequency)</hightlight> method to convert text data into numerical features, which improved the accuracy of our sentiment analysis model.",
+            "We utilized the <highlight>TF-IDF (Term Frequency-Inverse Document Frequency)</highlight> method to convert text data into numerical features, which improved the accuracy of our sentiment analysis model.",
             "This project not only strengthened my understanding of <highlight>Natural Language Processing</highlight> but also gave me hands-on experience in building machine learning models for real-world applications.",
         ]
     }

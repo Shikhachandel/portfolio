@@ -20,76 +20,119 @@ export const ExpertiseContent = styled.div`
     }
 `
 
-export const ExpertiseContainer = styled.div`
+// export const ExpertiseContainer = styled.div`
+//     display: flex;
+//     justify-content: space-around;
+
+//     @media ${device.tabletS} {
+//        flex-direction: column;
+//     }
+// `
+
+// export const Box = styled.div`
+//     width: -webkit-fill-available;
+//     border: 3px solid var(--pallet-2);
+//     padding: 0 10px;
+//     box-shadow: 2px 2px 10px var(--pallet-3);
+//     background: var(--pallet-2);
+
+//     @media ${device.tabletS} {
+//         margin: 0.8em;
+//         border-radius: 3em;
+//     }
+// `
+
+// export const BoxTitleDiv = styled.div`
+//     display: flex;
+//     align-items: center;
+//     padding: 10px 0;
+
+//     @media ${device.tabletS} {
+//         justify-content: center;
+//     }
+// `
+
+// export const BoxHeading = styled.div`
+//     text-align: center;
+//     padding: 10px;
+//     color: var(--pallet-4);
+// `
+
+// export const BoxIcon = styled.img`
+//     max-width: 40px;
+//     filter: invert(${props => props.$theme || 0});
+// `
+
+// export const SvcContainer = styled(Box)`
+//     border-bottom-left-radius: 3em;
+
+//     @media ${device.tabletS} {
+//         border-top-right-radius: 0;
+//     }
+// `
+
+// export const BackendContainer = styled(Box)`
+// `
+
+// export const FrontendContainer = styled(Box)`
+//     border-bottom-left-radius: 0;
+//     border-top-right-radius: 2em;
+// `
+
+// export const BoxDescDiv = styled.div`
+//     margin: 0px 20px 10px 20px;
+//     color: var(--pallet-4);
+// `
+
+// export const BoxDescTag = styled.div`
+//     padding: 1rem 0;
+// `
+
+// export const BoxDescQuote = styled.div`
+//     border-left: 2px solid var(--pallet-3);
+//     padding-left: 10px;
+//     margin-left: 20px;
+// `
+export const GithubStatsContainer = styled.div`
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 3rem;
+    flex-wrap: wrap;
 
     @media ${device.tabletS} {
-       flex-direction: column;
+        flex-direction: column;
+        align-items: center;
     }
-`
+`;
 
-export const Box = styled.div`
-    width: -webkit-fill-available;
-    border: 3px solid var(--pallet-2);
-    padding: 0 10px;
-    box-shadow: 2px 2px 10px var(--pallet-3);
-    background: var(--pallet-2);
-
-    @media ${device.tabletS} {
-        margin: 0.8em;
-        border-radius: 3em;
-    }
-`
-
-export const BoxTitleDiv = styled.div`
-    display: flex;
-    align-items: center;
-    padding: 10px 0;
-
-    @media ${device.tabletS} {
-        justify-content: center;
-    }
-`
-
-export const BoxHeading = styled.div`
+export const GithubCard = styled.div`
+    min-width: 180px;
+    padding: 1.5rem;
     text-align: center;
-    padding: 10px;
+
+    border: 3px solid var(--pallet-2);
+    background: var(--pallet-2);
     color: var(--pallet-4);
-`
 
-export const BoxIcon = styled.img`
-    max-width: 40px;
-    filter: invert(${props => props.$theme || 0});
-`
+    border-radius: 1.5rem;
+    box-shadow: 2px 2px 10px var(--pallet-3);
 
-export const SvcContainer = styled(Box)`
-    border-bottom-left-radius: 3em;
+    transition: all 0.3s ease;
 
-    @media ${device.tabletS} {
-        border-top-right-radius: 0;
+    &:hover {
+        transform: translateY(-8px);
+        box-shadow: 4px 4px 15px var(--pallet-3);
     }
-`
+`;
 
-export const BackendContainer = styled(Box)`
-`
-
-export const FrontendContainer = styled(Box)`
-    border-bottom-left-radius: 0;
-    border-top-right-radius: 2em;
-`
-
-export const BoxDescDiv = styled.div`
-    margin: 0px 20px 10px 20px;
+export const GithubValue = styled.h2`
+    margin: 0;
+    font-size: 2rem;
     color: var(--pallet-4);
-`
+`;
 
-export const BoxDescTag = styled.div`
-    padding: 1rem 0;
-`
-
-export const BoxDescQuote = styled.div`
-    border-left: 2px solid var(--pallet-3);
-    padding-left: 10px;
-    margin-left: 20px;
-`
+export const GithubLabel = styled.p`
+    margin-top: 0.5rem;
+    color: var(--pallet-4);
+`;

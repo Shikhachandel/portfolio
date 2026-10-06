@@ -5,13 +5,13 @@ export const GlobalStyle = createGlobalStyle`
   html {
     height: 100%;
     width: 100%;
-    font-size: 100%;
+    font-size: 90%;
 
     @media ${device.tablet} {
-      font-size: 75%;
+      font-size: 67.5%;
     }
     @media ${device.mobileL} {
-      font-size: 60%;
+      font-size: 54%;
     }
   }
 

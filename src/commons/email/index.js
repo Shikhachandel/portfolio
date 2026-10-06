@@ -2,7 +2,7 @@ import React from "react";
 import { EmailLinkText } from "./style";
 
 function EmailLink() {
-  const email = "example@example.com";
+  const email = "svchandel@aggies.ncat.edu";
 
   function handleEmailClick() {
     window.location.href = `mailto:${email}`;
@@ -10,7 +10,7 @@ function EmailLink() {
 
   return (
     <EmailLinkText onClick={handleEmailClick}>
-      chandelshikha4@gmail.com
+      {email}
     </EmailLinkText>
   );
 }

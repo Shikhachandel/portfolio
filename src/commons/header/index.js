@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import {
   HeadersContainer, Nav, NavigationLink, UL,
-  LI, HideLogo, FadeInLogo, LogoLink, ViewImg,
+  LI, HideLogo, FadeInLogo, ViewImg,
   BurgerMenuImg
 } from "./style";
 import MoonLogo from '../../../src/icons/moon.png';
@@ -51,23 +51,14 @@ function Header({ hideLogo }) {
 
   return (
     <HeadersContainer>
-      <BurgerMenuImg src={MenuBurger} onClick={changeHamburgerView} $theme={theme_control[view]}></BurgerMenuImg>
+      <BurgerMenuImg src={MenuBurger} onClick={changeHamburgerView} $theme={theme_control[view]} />
       <Nav>
-        {
-          hideLogo ? <HideLogo /> :
-            <FadeInLogo>
-              <LogoLink to="/">
-                Shikha Virender Chandel
-              </LogoLink>
-            </FadeInLogo>
-        }
-        <UL $hamburgerStatus={hamburgerView} >
-          {/* {LiComponent('Home', '/')} */}
+        {hideLogo ? <HideLogo /> : <FadeInLogo />}
+        <UL $hamburgerStatus={hamburgerView}>
+          {LiComponent('Home', '/')}
           {LiComponent('Education', '/educations')}
           {LiComponent('Experience', '/experiences')}
           {LiComponent('Project', '/projects')}
-          {LiComponent('About', '/about')}
-          {LiComponent('Contact', '/contact')}
         </UL>
       </Nav>
 

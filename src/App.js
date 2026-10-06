@@ -3,7 +3,6 @@ import { Route, Routes } from "react-router-dom";
 import "./utils/css-constants.css";
 import "./style";
 import Homepage from "./pages/homepage";
-import Contact from "./pages/contact";
 import About from "./pages/about";
 import { Background, GlobalStyle } from "./style";
 import Project from "./pages/project";
@@ -21,7 +20,6 @@ function App() {
       <GlobalStyle />
       <Routes>
         <Route path="/" element={<Homepage />} />
-        <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
         <Route path="/experiences" element={<Experiences />} />
         <Route path="/experiences/:company_name" element={<Experience />} />

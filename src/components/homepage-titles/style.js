@@ -6,7 +6,7 @@ export const TitleDiv = styled.div`
 `
 
 export const ProjectTitle = styled.h1`
-    text-align: left;
+    text-align: center;
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 2rem;

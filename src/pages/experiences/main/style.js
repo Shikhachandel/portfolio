@@ -4,8 +4,11 @@ import { device } from "../../../utils/global-constants";
 export const ExperienceContainerGrid = styled.div`
     display: grid;
     grid-gap: 10px;
-    grid-template-columns: 250px 1fr;
-    grid-template-rows: 100px 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: 60px 1fr;
+    max-width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
 
     @media ${device.tablet} {
         grid-template-rows: 50px 1fr;
@@ -14,11 +17,12 @@ export const ExperienceContainerGrid = styled.div`
 
 export const GridItem = styled.div`
     width: 100%;
+    min-width: 0;
     justify-items: center;
 `
 export const GridTitleLayout = styled(GridItem)`
     grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column-end: 2;
     align-self: center;
 `
 export const TagLayout = styled(GridItem)`
@@ -59,8 +63,8 @@ export const TagLayoutSkillItemsActive = styled(TagLayoutSkillItems)`
 
 // Main content(right) layout css
 export const WorkLayout = styled(GridItem)`
-    grid-column-start: 2;
-    grid-column-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
     @media ${device.tablet}{
         grid-column-start: 1;
     }

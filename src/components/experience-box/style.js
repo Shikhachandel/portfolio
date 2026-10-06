@@ -8,6 +8,11 @@ export const ExperienceBoxContainer = styled.div`
     box-shadow: 0px 0px 1px  var(--pallet-3);
     color: var(--pallet-4);
     transition: box-shadow 0.4s ease-in-out;
+    max-width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+    overflow-wrap: anywhere;
+    word-break: break-word;
     &:hover{
         box-shadow: 0px 0px 15px 5px var(--pallet-3);
     }
@@ -44,7 +49,8 @@ export const ExperienceTextContent = styled.div`
     padding: 1rem 2rem;
 
     @media ${device.mobileL} {
-        font-size: 1.2rem;
+        padding: 1rem;
+        font-size: 1rem;
     }
 `
 
@@ -54,7 +60,7 @@ export const ExperienceTitle = styled.div`
     font-weight: bold;
 
     @media ${device.mobileL} {
-        font-size: 2rem;
+        font-size: 1.4rem;
     }
 `
 
@@ -65,7 +71,7 @@ export const ExperienceDescprition = styled.div`
     font-weight: 200;
     
     @media ${device.mobileL} {
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
 `
 
@@ -78,6 +84,6 @@ export const ExperienceLink = styled(Link)`
     }
 
     @media ${device.mobileL} {
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
 `

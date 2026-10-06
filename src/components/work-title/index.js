@@ -10,7 +10,7 @@ const WorkTitle = ({ title, location, start_date, end_date, position }) => {
             <Title>{title}</Title>
             <Position>{position}</Position>
             <Location>{location}</Location>
-            <Duration> {formatted_start_date} - {formatted_end_date} </Duration>
+            <Duration> {formatted_start_date === formatted_end_date ? formatted_start_date : `${formatted_start_date} - ${formatted_end_date}`} </Duration>
         </MainDiv>
     )
 };

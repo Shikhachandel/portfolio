@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const FooterDiv = styled.div`
-    padding-top: 100px;
+    padding-top: 2rem;
     background: var(--pallet-1);
 `
 
@@ -13,7 +13,7 @@ export const HorizontalLineDiv = styled.div`
 
 
 export const ContentDiv = styled.div`
-    padding: 3em 0;
+    padding: 1.5em 0;
     text-align: center;
     color: var(--pallet-4)
 `

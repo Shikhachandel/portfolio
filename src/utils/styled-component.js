@@ -2,27 +2,31 @@ import styled from "styled-components";
 import { device } from "./global-constants";
 
 export const PageContainer = styled.div`
-    padding: 1em 10em;
+    padding: 0.5em 6em 1em;
+    max-width: 100%;
+    box-sizing: border-box;
 
     @media ${device.tablet} {
-        padding: 1em 5em ;
+        padding: 0.5em 3em 1em;
     }
 
     @media ${device.mobileL} {
-        padding: 1em 5em ;
+        padding: 0.5em 1rem 1em;
     }
 
     @media ${device.mobileM} {
-        padding: 1em 3em ;
+        padding: 0.5em 0.85rem 1em;
     }
 
     @media ${device.mobileS} {
-        padding: 1em 3em ;
+        padding: 0.5em 0.75rem 1em;
     }
 `
 
 export const WorkContentDiv = styled.div`
-    padding: 2rem 3rem;
+    padding: 1rem 3rem 2rem;
+    max-width: 100%;
+    box-sizing: border-box;
 
     @media ${device.tabletS}{
         padding: 2rem 0rem;
@@ -31,6 +35,7 @@ export const WorkContentDiv = styled.div`
 export const WorkContentImage = styled.img`
     height: 400px;
     width: 100%;
+    max-width: 100%;
     object-fit: cover;
 
     @media ${device.tabletS}{
@@ -44,6 +49,10 @@ export const WorkContentImage = styled.img`
 
 export const WorkContentDetail = styled.div`
     padding: 2rem 10rem;
+    max-width: 100%;
+    box-sizing: border-box;
+    overflow-wrap: anywhere;
+    word-break: break-word;
 
     @media ${device.tablet}{
         padding: 2rem 4rem;
@@ -59,7 +68,9 @@ export const WorkContentDetail = styled.div`
 `
 
 export const CollegeContentDiv = styled.div`
-    padding: 2rem 3rem;
+    padding: 1rem 3rem 2rem;
+    max-width: 100%;
+    box-sizing: border-box;
 
     @media ${device.tabletS}{
         padding: 2rem 0rem;
@@ -68,6 +79,7 @@ export const CollegeContentDiv = styled.div`
 export const CollegeContentImage = styled.img`
     height: 400px;
     width: 100%;
+    max-width: 100%;
     object-fit: cover;
 
     @media ${device.tabletS}{
@@ -81,6 +93,10 @@ export const CollegeContentImage = styled.img`
 
 export const CollegeContentDetail = styled.div`
     padding: 2rem 10rem;
+    max-width: 100%;
+    box-sizing: border-box;
+    overflow-wrap: anywhere;
+    word-break: break-word;
 
     @media ${device.tablet}{
         padding: 2rem 4rem;
@@ -100,4 +116,12 @@ export const Sentence = styled.p`
     font-size: 1.3rem;
     font-weight: 300;
     text-align: justify;
+    max-width: 100%;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+
+    @media ${device.mobileL} {
+        font-size: 1.05rem;
+        text-align: left;
+    }
 `

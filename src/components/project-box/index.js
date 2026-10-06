@@ -4,11 +4,11 @@ import { BoxContainer, ProjectDescprition, ProjectImage, ProjectImageBox, Projec
 const ProjectBox = ({ project, index }) => {
     return (
         <BoxContainer key={`project_${index}`} >
-            <ProjectImageBox>
-                <Link to={project.links.web_url} target="_blank">
+            {project.image && <ProjectImageBox>
+                <Link to={project.links.web_url || project.links.github_url} target="_blank">
                     <ProjectImage src={project.image} alt={project.project_title} />
                 </Link>
-            </ProjectImageBox>
+            </ProjectImageBox>}
             <ProjectTextContent>
                 <ProjectTitle>
                     {project.project_title}

@@ -8,6 +8,11 @@ export const BoxContainer = styled.div`
     border-radius: 4px;
     box-shadow: 0px 0px 1px  var(--pallet-3);
     transition: box-shadow 0.4s ease-in-out;
+    max-width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+    overflow-wrap: anywhere;
+    word-break: break-word;
     &:hover{
         box-shadow: 0px 0px 15px 5px var(--pallet-3);
     }
@@ -44,6 +49,10 @@ export const ProjectImage = styled.img`
 
 export const ProjectTextContent = styled.div`
     padding: 1rem 2rem;
+
+    @media ${device.mobileL} {
+        padding: 1rem;
+    }
 `
 
 export const ProjectTitle = styled.div`
@@ -52,7 +61,7 @@ export const ProjectTitle = styled.div`
     font-weight: bold;
 
     @media ${device.mobileL} {
-        font-size: 2rem;
+        font-size: 1.4rem;
     }
 `
 
@@ -63,7 +72,7 @@ export const ProjectDescprition = styled.div`
     font-weight: 200;
     
     @media ${device.mobileL} {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 `
 
@@ -76,6 +85,6 @@ export const ProjectLink = styled(Link)`
     }
     
     @media ${device.mobileL} {
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
 `

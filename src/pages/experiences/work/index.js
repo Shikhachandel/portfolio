@@ -1,4 +1,19 @@
-import { Brief, ContributionItem, ContributionList, ContributionTitle, Skill, SkillsDiv, Title, TitleDiv, TitleLink, WorkContainer, WorkDuration, WorkLocation, WorkPosition } from "./style";
+import {
+    Brief,
+    ContributionItem,
+    ContributionList,
+    ContributionTitle,
+    Skill,
+    SkillsDiv,
+    SectionTitle,
+    Title,
+    TitleDiv,
+    TitleLink,
+    WorkContainer,
+    WorkDuration,
+    WorkLocation,
+    WorkPosition
+} from "./style";
 import FormatDate from "../../../commons/datetime";
 
 const Work = ({ work }) => {
@@ -26,26 +41,25 @@ const Work = ({ work }) => {
                 {work.brief}
             </Brief>
 
-            Skills:
+            <SectionTitle>Tech Stack</SectionTitle>
             <SkillsDiv>
                 {work.tech_stack.map((skill, index) => (
-                    <Skill key={`li_${index}`}>{skill}</Skill>
+                    <Skill key={`skill_${index}`}>{skill}</Skill>
                 ))}
             </SkillsDiv>
 
-            {
-                work.major_contributions?
-                    (<div>
-                        <ContributionTitle>Major contributions</ContributionTitle>
-                        <ContributionList>
-                            {
-                                work.major_contributions.map((contribution, index) => (
-                                    <ContributionItem key={`contribution_${index}`}>- {contribution.title}</ContributionItem>
-                                ))
-                            }
-                        </ContributionList>
-                    </div>) : ''
-            }
+            {work.major_contributions?.length ? (
+                <>
+                    <ContributionTitle>Major Contributions</ContributionTitle>
+                    <ContributionList>
+                        {work.major_contributions.map((contribution, index) => (
+                            <ContributionItem key={`contribution_${index}`}>
+                                {contribution.title}
+                            </ContributionItem>
+                        ))}
+                    </ContributionList>
+                </>
+            ) : null}
 
         </WorkContainer>
     )

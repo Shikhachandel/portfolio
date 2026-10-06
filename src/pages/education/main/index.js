@@ -3,6 +3,7 @@ import { PageContainer, CollegeContentDiv, CollegeContentImage, Sentence, Colleg
 import Educations from '../../../data/educations'
 import CollegeTitle from '../../../components/college-title';
 import parse from 'html-react-parser';
+import { ContributionTitle, ContributionList, ContributionItem } from '../../educations/college/style';
 
 const EducationMain = () => {
     const { college_name } = useParams()
@@ -33,6 +34,20 @@ const EducationMain = () => {
                             </Sentence>
                         ))
                     }
+                    {college_name === 'ncat' && current_edu.major_contributions?.length ? (
+                        <>
+                            <ContributionTitle>Major Contributions</ContributionTitle>
+                            <ContributionList>
+                                {current_edu.major_contributions.map((contribution) => (
+                                    <ContributionItem key={contribution.title}>
+                                        <a href={contribution.web_url} target="_blank" rel="noopener noreferrer">
+                                            {contribution.title}
+                                        </a>
+                                    </ContributionItem>
+                                ))}
+                            </ContributionList>
+                        </>
+                    ) : null}
                 </CollegeContentDetail>
             </CollegeContentDiv>
         </PageContainer>
